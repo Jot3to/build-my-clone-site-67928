@@ -6,27 +6,23 @@ export const HeroSection = () => {
       <div className="container mx-auto max-w-7xl">
         <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
           <div className="space-y-6">
-            <Badge>Sleep Resources</Badge>
+            <Badge>Guía de Matrimonios</Badge>
             <h1 className="text-4xl md:text-5xl lg:text-6xl leading-tight font-normal">
-              How I Got My Toddler Sleeping 11 Hours a Night in Just 7 Days (Without Cry-It-Out)
+              5 errores que cometen la mayoría de los novios al hacer su lista de regalos (y cómo evitarlos)
             </h1>
             
             {/* Image shown after title on mobile, in grid on desktop */}
             <div className="flex justify-center md:hidden my-8">
               <img
                 src={new URL("../assets/hero-sleeping-toddler.jpg", import.meta.url).href}
-                alt="Peaceful sleeping toddler"
+                alt="Pareja planificando su matrimonio"
                 className="rounded-3xl shadow-2xl w-full max-w-md object-cover"
                 style={{ boxShadow: 'var(--shadow-soft)' }}
               />
             </div>
             
             <p className="text-lg text-muted-foreground max-w-xl">
-              This is the 5-step method that's helped over 800 families end middle-of-the-night wake-ups in just two weeks – plus what to do when DIY isn't enough.
-            </p>
-            <p className="text-sm text-muted-foreground">
-              <strong>By Sarah Martinez, Certified Pediatric Sleep Consultant</strong><br />
-              Posted July 16, 2025
+              La lista de regalos de matrimonio no solo es una tradición, sino una de las decisiones más importantes que tomarás en la organización de tu gran día.
             </p>
           </div>
           
@@ -34,7 +30,7 @@ export const HeroSection = () => {
           <div className="hidden md:flex justify-center">
             <img
               src={new URL("../assets/hero-sleeping-toddler.jpg", import.meta.url).href}
-              alt="Peaceful sleeping toddler"
+              alt="Pareja planificando su matrimonio"
               className="rounded-3xl shadow-2xl w-full max-w-md object-cover"
               style={{ boxShadow: 'var(--shadow-soft)' }}
             />

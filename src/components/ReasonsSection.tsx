@@ -2,44 +2,24 @@ import { Check } from "lucide-react";
 
 const reasons = [
   {
-    title: "Designed for Real-Life Toddlers",
-    description: "Works even if your child is a light sleeper, sensitive, or nothing else has worked."
+    title: "Centralizar todo en un solo lugar",
+    description: "Regalos, confirmación de invitados, checklist y presupuesto, todo en una plataforma."
   },
   {
-    title: "No Cry-It-Out Needed",
-    description: "Gentle, attachment-safe strategies that help your child sleep without fear, stress, or confusion."
+    title: "Actualizar y editar fácilmente tu lista",
+    description: "Modifica tu lista desde cualquier dispositivo, en cualquier momento."
   },
   {
-    title: "Tailored to Your Family",
-    description: "Your sleep plan fits your schedule, parenting style, and your toddler's unique personality."
+    title: "Evitar la incomodidad de pedir dinero en sobres",
+    description: "Una forma moderna y discreta de recibir regalos sin incomodidades."
   },
   {
-    title: "Step-by-Step Coaching",
-    description: "No more late-night Googling. You'll know exactly what to do every night, with daily check-ins and guidance."
+    title: "Personalizar cada regalo",
+    description: "Agrega fotos, descripciones y mensajes que reflejen su historia como pareja."
   },
   {
-    title: "Support When You Need It Most",
-    description: "We handle night fixes and stylish staging that add an average 7% to final sale price—no upfront cost to you."
-  },
-  {
-    title: "Quick, Measurable Progress",
-    description: "Trained negotiators work every offer line-by-line, squeezing out extra dollars and cleaner terms."
-  },
-  {
-    title: "Safe to Try, Guaranteed",
-    description: "You'll know the numbers—views, inquiries, offers—in a Friday video recap that takes two minutes to watch."
-  },
-  {
-    title: "Trusted by Hundreds of Families",
-    description: "We tap live market stats, not gut guesses, to price your home for maximum demand from day one."
-  },
-  {
-    title: "Built for Real-Life Chaos",
-    description: "We tap live market stats, not gut guesses, to price your home for maximum demand from day one."
-  },
-  {
-    title: "Results That Last",
-    description: "Once your toddler learns to self-soothe, they stay asleep. No backsliding or endless regressions."
+    title: "Ahorrar tiempo y evitar errores",
+    description: "Procesos automáticos y notificaciones que simplifican la organización de tu matrimonio."
   }
 ];
 
@@ -49,10 +29,10 @@ export const ReasonsSection = () => {
       <div className="container mx-auto max-w-5xl">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl mb-4">
-            10 Reasons Parents Choose the Peaceful Nights Method
+            Otros beneficios de las listas online
           </h2>
           <p className="text-lg text-muted-foreground">
-            —and Feel Confident They're Making the Right Move
+            Todo pensado para que organizar tu matrimonio sea más fácil y entretenido
           </p>
         </div>
         
