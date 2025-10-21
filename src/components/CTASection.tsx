@@ -2,8 +2,8 @@ import { Button } from "./ui/button";
 
 export const CTASection = () => {
   return (
-    <section className="cta-section py-12 md:py-20 px-6 md:px-12">
-      <div className="container mx-auto max-w-6xl">
+    <section className="cta-section py-12 md:py-20">
+      <div className="container mx-auto max-w-6xl px-6 md:px-12">
         <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
           <div className="space-y-6 text-white order-2 md:order-1">
             <h2 className="text-3xl md:text-4xl">
