@@ -7,7 +7,7 @@ export const HeroSection = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <Badge>Sleep Resources</Badge>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl leading-tight">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl leading-tight font-normal">
               How I Got My Toddler Sleeping 11 Hours a Night in Just 7 Days (Without Cry-It-Out)
             </h1>
             <p className="text-lg text-muted-foreground max-w-xl">
