@@ -22,7 +22,10 @@ export const HeroSection = () => {
             </div>
             
             <p className="text-lg text-muted-foreground max-w-xl">
-              La lista de regalos de matrimonio no solo es una tradición, sino una de las decisiones más importantes que tomarás en la organización de tu gran día.
+              Organizar un matrimonio es una mezcla perfecta de ilusión, nervios y mil decisiones. Entre elegir el lugar, las flores o la música, la lista de regalos suele parecer un detalle más… hasta que te das cuenta de que puede marcar una gran diferencia en tu experiencia (y en tu bolsillo).
+            </p>
+            <p className="text-lg text-muted-foreground max-w-xl">
+              Después de acompañar a miles de parejas, hemos visto los mismos errores repetirse una y otra vez. Evitar estos cinco puede ahorrarte tiempo, estrés y más de una desilusión.
             </p>
           </div>
           

@@ -2,24 +2,20 @@ import { Check } from "lucide-react";
 
 const reasons = [
   {
-    title: "Centralizar todo en un solo lugar",
-    description: "Regalos, confirmación de invitados, checklist y presupuesto, todo en una plataforma."
+    title: "Personalizar cada regalo con fotos y mensajes",
+    description: "Haz que cada regalo sea único y refleje tu historia como pareja."
   },
   {
-    title: "Actualizar y editar fácilmente tu lista",
-    description: "Modifica tu lista desde cualquier dispositivo, en cualquier momento."
+    title: "Evitar la incomodidad de pedir sobres con dinero",
+    description: "Una forma moderna y discreta de recibir regalos sin situaciones incómodas."
   },
   {
-    title: "Evitar la incomodidad de pedir dinero en sobres",
-    description: "Una forma moderna y discreta de recibir regalos sin incomodidades."
+    title: "Recibir y revisar cada aporte en tiempo real",
+    description: "Mantén control total sobre tus regalos desde cualquier dispositivo."
   },
   {
-    title: "Personalizar cada regalo",
-    description: "Agrega fotos, descripciones y mensajes que reflejen su historia como pareja."
-  },
-  {
-    title: "Ahorrar tiempo y evitar errores",
-    description: "Procesos automáticos y notificaciones que simplifican la organización de tu matrimonio."
+    title: "Seguir recibiendo regalos incluso después del matrimonio",
+    description: "Tu lista permanece activa el tiempo que necesites."
   }
 ];
 
@@ -54,6 +50,12 @@ export const ReasonsSection = () => {
               </div>
             </div>
           ))}
+        </div>
+
+        <div className="mt-12 bg-muted/50 border-l-4 border-primary p-6 rounded-r-lg max-w-3xl mx-auto">
+          <p className="text-base md:text-lg italic text-center">
+            💬 Como dicen muchos de nuestros novios: "Fue hermoso ver cómo el álbum se llenaba de fotos y mensajes mientras seguían llegando regalos."
+          </p>
         </div>
       </div>
     </section>

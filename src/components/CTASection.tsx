@@ -10,20 +10,23 @@ export const CTASection = () => {
               Por qué creamos Mi Lista de Novios
             </h2>
             <p className="text-base md:text-lg leading-relaxed opacity-90">
-              Después de ver a tantas parejas frustradas con las listas tradicionales —entre regalos que no usaban, tarjetas con condiciones y procesos lentos— decidimos crear una plataforma diferente.
+              Mi Lista de Novios nació de algo muy simple: ver cómo demasiadas parejas terminaban frustradas con las listas tradicionales. Promesas que no se cumplían, beneficios con letra chica, tarjetas que no podían usar y regalos que no los representaban.
             </p>
             <p className="text-base md:text-lg leading-relaxed opacity-90">
-              Así nació Mi Lista de Novios, un servicio 100% online que te permite recibir el dinero de tus regalos directo en tu cuenta bancaria, con total libertad para usarlo como quieras.
+              Por eso decidimos crear una alternativa distinta: una lista libre, transparente y diseñada para disfrutar el proceso. Una donde los novios reciban el dinero directamente, sin trámites ni confusiones, y los invitados vivan una experiencia linda, emotiva y fácil.
             </p>
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-4 md:p-6 border border-white/20">
-              <p className="text-base md:text-lg font-semibold">
-                No es una lista tradicional ni un catálogo cerrado: es una experiencia personalizada, gratuita para los novios y diseñada para hacer del proceso de regalar algo emocional, simbólico y completamente libre.
+              <p className="text-base md:text-lg font-semibold mb-3">
+                Desde 2018, más de 10.000 parejas en Chile ya confiaron en nosotros.
+              </p>
+              <p className="text-base md:text-lg opacity-90">
+                Y cada una de ellas nos recuerda que no se trata solo de regalos, sino de comenzar la vida juntos con libertad, emoción y cero complicaciones.
               </p>
             </div>
             <button 
               className="bg-white text-accent hover:bg-white/90 font-semibold text-base md:text-lg px-6 md:px-8 py-4 md:py-6 w-full md:w-auto rounded-lg transition-colors"
             >
-              Conoce más sobre cómo funciona Mi Lista de Novios
+              👉 Conoce cómo funciona y crea tu lista hoy en milistadenovios.cl
             </button>
           </div>
           <div className="flex justify-center order-1 md:order-2">

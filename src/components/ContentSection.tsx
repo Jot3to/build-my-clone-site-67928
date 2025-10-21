@@ -3,44 +3,41 @@ export const ContentSection = () => {
     <section className="content-section py-16 px-6 md:px-12">
       <div className="container mx-auto max-w-4xl space-y-12">
         <article className="space-y-6">
-          <h2 className="text-3xl md:text-4xl text-center">
-            Introducción
+          <h2 className="text-3xl md:text-4xl">
+            Error 1: Hacer la lista en una tienda que te amarra
           </h2>
           <p className="text-lg leading-relaxed">
-            Sin embargo, muchos novios terminan arrepintiéndose después de elegir mal dónde hacerla: entre regalos que nunca usan, tarjetas que los amarran a una tienda o procesos llenos de complicaciones.
+            Durante años, lo típico era crear la lista en una casa comercial. Prometen que recibirás el dinero de tus regalos, pero muchos novios descubren —cuando ya están casados y con la tarjeta en la mano— que en realidad no están recibiendo dinero, sino una tarjeta de crédito con condiciones.
           </p>
           <p className="text-lg leading-relaxed">
-            En este artículo te contamos los errores más comunes al crear la lista de regalos y cómo evitarlos para disfrutar de una experiencia mucho más libre y personalizada.
+            Si tienes una deuda activa con esa tarjeta, el monto de tus regalos se usa automáticamente para pagarla. Y aunque estés al día, lo que recibes no es libre: tiene topes, restricciones y letras chicas.
+          </p>
+          <div className="bg-muted/50 border-l-4 border-primary p-6 rounded-r-lg">
+            <p className="text-base md:text-lg italic">
+              "Si me hubieran dicho esto antes, jamás habría elegido Novios París. Todo el monto se fue a pagar la tarjeta."<br />
+              <span className="text-sm text-muted-foreground">— Isabel, reseña en matrimonios.cl (1/5 estrellas)</span>
+            </p>
+          </div>
+          <p className="text-lg leading-relaxed">
+            Otros novios se quejan de beneficios que nunca llegan o descuentos que solo aplican en ciertas tiendas. Lo que parecía práctico termina siendo un proceso lento, engorroso y muy poco transparente.
+          </p>
+          <p className="text-lg leading-relaxed">
+            <strong>💡 Cómo evitarlo:</strong> elige una plataforma libre y directa. Con Mi Lista de Novios, el dinero de tus regalos llega a tu cuenta bancaria, sin intermediarios, sin letras chicas y sin amarras. Tú decides en qué usarlo: tu luna de miel, tu casa, o simplemente darte un respiro después del gran día.
           </p>
         </article>
 
         <article className="space-y-6">
           <h2 className="text-3xl md:text-4xl">
-            Error 1: Crearla en una tienda que te amarra con una tarjeta o puntos
+            Error 2: Llenarla de cosas que no los representan
           </h2>
           <p className="text-lg leading-relaxed">
-            Muchos novios siguen el camino tradicional y hacen su lista en casas comerciales. El problema es que, aunque parezca práctico, no recibes dinero real, sino una tarjeta de crédito con restricciones y condiciones.
+            Tostadoras, platos, licuadoras… todo eso está bien. Pero seamos honestos: una lista llena de artículos se ve más como una lista de supermercado que como una invitación especial a ser parte de su historia.
           </p>
           <p className="text-lg leading-relaxed">
-            Además, si algo falla (como ha pasado en varios casos), puedes terminar sin acceso a tus fondos.
+            Y eso cambia por completo la experiencia del invitado. Recibir un link con una lista de productos impersonales se siente frío, casi como si le mandaras un pedido del súper. En cambio, recibir una lista con regalos simbólicos y mensajes lindos —como "nuestra primera escapada juntos" o "una cena sin pantallas"— emociona, hace sonreír y conecta.
           </p>
           <p className="text-lg leading-relaxed">
-            <strong>Cómo evitarlo:</strong> elige una lista 100% online y sin intermediarios, donde el dinero de tus regalos llegue directo a tu cuenta bancaria. En Mi Lista de Novios, tú decides cómo y cuándo usarlo.
-          </p>
-        </article>
-
-        <article className="space-y-6">
-          <h2 className="text-3xl md:text-4xl">
-            Error 2: No pensar en lo que realmente representa a la pareja
-          </h2>
-          <p className="text-lg leading-relaxed">
-            Las listas tradicionales están llenas de electrodomésticos repetidos o artículos que no reflejan su historia como pareja.
-          </p>
-          <p className="text-lg leading-relaxed">
-            <strong>Cómo evitarlo:</strong> arma una lista que cuente su historia —con regalos simbólicos como "nuestra primera aventura juntos", "un viaje a la luna" o "un fin de semana sin pantallas".
-          </p>
-          <p className="text-lg leading-relaxed">
-            Además de ser más emotiva, tus invitados disfrutarán el proceso de regalar algo con verdadero significado.
+            <strong>💡 Cómo evitarlo:</strong> haz que tu lista se vea bonita y cuente quiénes son. En Mi Lista de Novios, tú inventas los regalos, defines los precios y das sentido a cada uno. Tus invitados no solo aportan dinero: te ayudan a construir recuerdos.
           </p>
         </article>
 
@@ -58,10 +55,13 @@ export const ContentSection = () => {
             Error 3: Complicarles la vida a los invitados
           </h2>
           <p className="text-lg leading-relaxed">
-            Nada peor que un invitado que no logra entender cómo comprar un regalo o que se frustra con los métodos de pago.
+            Muchos invitados, sobre todo los mayores, se frustran cuando deben crear cuentas, usar puntos o entender sistemas enredados. Y lo más triste es que, por no saber cómo hacerlo, terminan no regalando nada.
           </p>
           <p className="text-lg leading-relaxed">
-            <strong>Cómo evitarlo:</strong> elige una plataforma simple y segura, con pagos vía Transbank y todas las tarjetas disponibles. En Mi Lista de Novios, cada vez que alguien te hace un regalo, recibe un mail con el detalle y mensaje, ¡sin enredos ni pasos extra!
+            <strong>💡 Cómo evitarlo:</strong> usa una plataforma pensada para todos. En Mi Lista de Novios, tus invitados pagan con tarjeta de débito o crédito vía Transbank, sin registros ni pasos extra. Reciben un mail automático con el detalle del regalo y su mensaje, y tú puedes ver todo desde tu cuenta: quién regaló, cuánto, cuándo y qué escribió.
+          </p>
+          <p className="text-lg leading-relaxed">
+            Así, regalar se vuelve tan fácil como hacer una compra online… pero con emoción.
           </p>
         </article>
 
@@ -70,22 +70,51 @@ export const ContentSection = () => {
             Error 4: No revisar los costos ocultos
           </h2>
           <p className="text-lg leading-relaxed">
-            Algunas plataformas cobran comisiones o descuentan parte del dinero que recibes.
+            Muchas plataformas descuentan parte del dinero que recibes o esconden comisiones detrás de "beneficios especiales". A simple vista parece poco, pero cuando sumas todos los regalos, la diferencia puede ser enorme.
+          </p>
+          <div className="bg-muted/50 border-l-4 border-primary p-6 rounded-r-lg">
+            <p className="text-base md:text-lg italic">
+              💬 "No es lo que te ofrecen. La forma en que plantean los beneficios es engañosa. Te dicen una cosa y después aplican otra."<br />
+              <span className="text-sm text-muted-foreground">— Reseña real en matrimonios.cl</span>
+            </p>
+          </div>
+          <p className="text-lg leading-relaxed">
+            <strong>💡 Cómo evitarlo:</strong> busca transparencia real. En Mi Lista de Novios, el servicio es 100% gratuito para los novios. Si un regalo vale $50.000, recibes exactamente $50.000. El único recargo del 10% lo paga el invitado (como cualquier compra online) y cubre el sistema y los medios de pago.
           </p>
           <p className="text-lg leading-relaxed">
-            <strong>Cómo evitarlo:</strong> asegúrate de que el servicio sea gratis para los novios. En Mi Lista de Novios recibes el 100% del monto regalado, sin comisiones ni descuentos, mientras que el recargo de 10% se aplica solo al invitado (el mismo costo de cualquier compra online).
+            Nada escondido. Nada que reste.
           </p>
         </article>
 
         <article className="space-y-6">
           <h2 className="text-3xl md:text-4xl">
-            Error 5: No aprovechar beneficios adicionales
+            Error 5: No aprovechar las herramientas que realmente facilitan tu matrimonio
           </h2>
           <p className="text-lg leading-relaxed">
-            Muchos novios se enfocan solo en los regalos y olvidan los beneficios exclusivos que pueden obtener al elegir bien su lista.
+            Hoy todas las plataformas prometen "beneficios", pero pocas entregan herramientas reales. Mientras algunos hablan de puntos o descuentos llenos de condiciones, en Mi Lista de Novios decidimos hacer algo distinto: darte funcionalidades que te simplifican la vida.
           </p>
           <p className="text-lg leading-relaxed">
-            <strong>Cómo evitarlo:</strong> busca plataformas con alianzas reales y ventajas para tu matrimonio. En Mi Lista de Novios, por ejemplo, accedes a descuentos con marcas como LG, Samsung, Viña Casas del Bosque, Joyas Premium y Huilo Huilo, además de acumular Millas LATAM Pass por cada regalo recibido.
+            <strong>💡 Cómo evitarlo:</strong> elige una lista que te acompañe de verdad en la organización. Además de recibir el dinero de tus regalos, en Mi Lista de Novios puedes:
+          </p>
+          <ul className="space-y-3 ml-6">
+            <li className="text-lg leading-relaxed">
+              <strong>Acumular Millas LATAM Pass</strong> por cada regalo recibido.
+            </li>
+            <li className="text-lg leading-relaxed">
+              <strong>Contactar automáticamente a tus invitados por mail</strong> para recordarles tu lista (sin tener que hacerlo tú).
+            </li>
+            <li className="text-lg leading-relaxed">
+              <strong>Organizar las mesas de tu matrimonio</strong> con un plano virtual.
+            </li>
+            <li className="text-lg leading-relaxed">
+              <strong>Crear tu checklist y presupuesto</strong> dentro de la misma cuenta.
+            </li>
+            <li className="text-lg leading-relaxed">
+              <strong>Compartir un álbum de fotos</strong> donde tus invitados suben las imágenes de ese día en tiempo real.
+            </li>
+          </ul>
+          <p className="text-lg leading-relaxed">
+            Todo en un solo lugar. Sin descargas, sin apps extra, y sin letras chicas.
           </p>
         </article>
       </div>
