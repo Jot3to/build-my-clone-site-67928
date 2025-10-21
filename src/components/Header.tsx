@@ -7,7 +7,7 @@ export const Header = () => {
         <img 
           src={logo} 
           alt="Mi Lista de Novios" 
-          className="h-12 md:h-14 w-auto"
+          className="h-8 md:h-10 w-auto"
         />
       </div>
     </header>
