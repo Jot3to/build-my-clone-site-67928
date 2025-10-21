@@ -3,6 +3,15 @@ export const ContentSection = () => {
     <section className="content-section py-16 px-6 md:px-12">
       <div className="container mx-auto max-w-4xl space-y-12">
         <article className="space-y-6">
+          <p className="text-lg leading-relaxed">
+            Organizar un matrimonio es una mezcla perfecta de ilusión, nervios y mil decisiones. Entre elegir el lugar, las flores o la música, la lista de regalos suele parecer un detalle más… hasta que te das cuenta de que puede marcar una gran diferencia en tu experiencia (y en tu bolsillo).
+          </p>
+          <p className="text-lg leading-relaxed">
+            Después de acompañar a miles de parejas, hemos visto los mismos errores repetirse una y otra vez. Evitar estos cinco puede ahorrarte tiempo, estrés y más de una desilusión.
+          </p>
+        </article>
+
+        <article className="space-y-6">
           <h2 className="text-3xl md:text-4xl">
             Error 1: Hacer la lista en una tienda que te amarra
           </h2>
