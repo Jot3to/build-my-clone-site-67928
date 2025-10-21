@@ -52,8 +52,8 @@ export const ContentSection = () => {
 
         <div className="my-12 flex justify-center">
           <img
-            src={new URL("../assets/parent-tucking-child.jpg", import.meta.url).href}
-            alt="Pareja planificando juntos su lista de regalos"
+            src={new URL("../assets/couple-planning-wedding.jpg", import.meta.url).href}
+            alt="Pareja planificando juntos su lista de regalos de matrimonio"
             className="rounded-3xl shadow-2xl w-full max-w-2xl object-cover"
             style={{ boxShadow: 'var(--shadow-soft)' }}
           />

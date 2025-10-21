@@ -31,8 +31,8 @@ export const CTASection = () => {
           </div>
           <div className="flex justify-center order-1 md:order-2">
             <img
-              src={new URL("../assets/consultant-with-child.jpg", import.meta.url).href}
-              alt="Sarah Martinez, Certified Pediatric Sleep Consultant"
+              src={new URL("../assets/wedding-couple-portrait.jpg", import.meta.url).href}
+              alt="Pareja de novios en su día especial"
               className="rounded-3xl shadow-2xl w-full max-w-sm object-cover"
             />
           </div>

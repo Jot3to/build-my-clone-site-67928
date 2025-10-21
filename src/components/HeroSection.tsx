@@ -14,8 +14,8 @@ export const HeroSection = () => {
             {/* Image shown after title on mobile, in grid on desktop */}
             <div className="flex justify-center md:hidden my-8">
               <img
-                src={new URL("../assets/hero-sleeping-toddler.jpg", import.meta.url).href}
-                alt="Pareja planificando su matrimonio"
+                src={new URL("../assets/hero-engaged-couple.jpg", import.meta.url).href}
+                alt="Pareja de novios felices planificando su matrimonio"
                 className="rounded-3xl shadow-2xl w-full max-w-md object-cover"
                 style={{ boxShadow: 'var(--shadow-soft)' }}
               />
@@ -26,8 +26,8 @@ export const HeroSection = () => {
           {/* Image hidden on mobile, shown in grid on desktop */}
           <div className="hidden md:flex justify-center">
             <img
-              src={new URL("../assets/hero-sleeping-toddler.jpg", import.meta.url).href}
-              alt="Pareja planificando su matrimonio"
+              src={new URL("../assets/hero-engaged-couple.jpg", import.meta.url).href}
+              alt="Pareja de novios felices planificando su matrimonio"
               className="rounded-3xl shadow-2xl w-full max-w-md object-cover"
               style={{ boxShadow: 'var(--shadow-soft)' }}
             />
