@@ -6,7 +6,7 @@ export const ContentSection = () => {
       <div className="container mx-auto max-w-4xl space-y-12">
         <article className="space-y-6">
           <p className="text-lg leading-relaxed">
-            Preparar el EUNACOM es un desafío que marca tu futuro profesional. Miles de médicos se enfrentan cada año a este examen, pero no todos logran el puntaje necesario para ingresar a la especialidad deseada.
+            Preparar el Eunacom es un desafío que marca tu futuro profesional. Miles de médicos se enfrentan cada año a este examen, pero no todos logran el puntaje necesario para ingresar a la especialidad deseada.
           </p>
           <p className="text-lg leading-relaxed">
             ¿La razón? No es falta de inteligencia ni de dedicación. Es estudiar de la manera equivocada.
@@ -33,7 +33,7 @@ export const ContentSection = () => {
             Leer y ver videos genera la ilusión de aprendizaje. Tu cerebro reconoce la información cuando la ve, pero eso no significa que pueda recuperarla bajo presión. Es como ver videos de cómo nadar sin meterte a la piscina: entiendes la técnica, pero te ahogarás en el agua.
           </p>
           <p className="text-lg leading-relaxed">
-            El EUNACOM no evalúa cuánto leíste. Evalúa cómo piensas bajo presión, cómo discriminas entre alternativas similares, y cómo aplicas conocimiento en casos clínicos reales.
+            El Eunacom no evalúa cuánto leíste. Evalúa cómo piensas bajo presión, cómo discriminas entre alternativas similares, y cómo aplicas conocimiento en casos clínicos reales.
           </p>
           <p className="text-lg leading-relaxed">
             Y eso no se aprende leyendo. Se aprende respondiendo preguntas.
@@ -44,7 +44,7 @@ export const ContentSection = () => {
             Estudiar sin responder preguntas significa que llegas al examen:
           </p>
           <ul className="space-y-3 ml-6 list-disc">
-            <li className="text-lg leading-relaxed">Sin saber identificar las trampas clásicas del EUNACOM</li>
+            <li className="text-lg leading-relaxed">Sin saber identificar las trampas clásicas del Eunacom</li>
             <li className="text-lg leading-relaxed">Sin velocidad para responder 180 preguntas en 3 horas</li>
             <li className="text-lg leading-relaxed">Sin capacidad de discriminar entre dos alternativas "casi correctas"</li>
             <li className="text-lg leading-relaxed">Sin haber entrenado tu razonamiento clínico bajo presión</li>
@@ -70,7 +70,7 @@ export const ContentSection = () => {
           
           <div className="bg-muted/50 border-l-4 border-primary p-6 rounded-r-lg">
             <p className="text-base md:text-lg">
-              <strong>Mi Eunacom</strong> está construido sobre esta metodología comprobada: más de 5.000 preguntas tipo EUNACOM que replican exactamente el formato, dificultad y estilo del examen real. Cada pregunta incluye justificaciones detalladas de TODAS las alternativas, no solo la correcta, para que entiendas el razonamiento clínico completo.
+              <strong>Mi Eunacom</strong> está construido sobre esta metodología comprobada: más de 5.000 preguntas tipo Eunacom que replican exactamente el formato, dificultad y estilo del examen real. Cada pregunta incluye justificaciones detalladas de TODAS las alternativas, no solo la correcta, para que entiendas el razonamiento clínico completo.
             </p>
             <p className="text-base md:text-lg mt-4">
               El sistema rastrea tu rendimiento por especialidad, identifica tus áreas débiles y te muestra exactamente dónde necesitas mejorar. Los ebooks y masterclass están disponibles como apoyo teórico, pero el corazón de la preparación son las preguntas: porque así es exactamente como te evaluarán el día del examen.
@@ -98,7 +98,7 @@ export const ContentSection = () => {
             Estudiar sin estructura es como manejar de noche sin GPS en un lugar desconocido. Avanzas, sí, pero ¿hacia dónde? ¿Cuánto falta? ¿Te estás acercando o alejando?
           </p>
           <p className="text-lg leading-relaxed">
-            El EUNACOM es un examen con más de 20 especialidades, cientos de patologías, miles de detalles. Sin un plan claro, tu cerebro no logra:
+            El Eunacom es un examen con más de 20 especialidades, cientos de patologías, miles de detalles. Sin un plan claro, tu cerebro no logra:
           </p>
           <ul className="space-y-3 ml-6 list-disc">
             <li className="text-lg leading-relaxed">Consolidar conocimientos de forma progresiva</li>
@@ -148,7 +148,7 @@ export const ContentSection = () => {
         <div className="my-12 flex justify-center">
           <img
             src={studyGroupImage}
-            alt="Estudiantes de medicina preparando el EUNACOM en grupo"
+            alt="Estudiantes de medicina preparando el Eunacom en grupo"
             className="rounded-3xl shadow-2xl w-full max-w-2xl object-cover"
             style={{ boxShadow: 'var(--shadow-soft)' }}
           />
@@ -182,7 +182,7 @@ export const ContentSection = () => {
           
           <h3 className="text-2xl md:text-3xl font-semibold">Por qué esto puede costarte tu especialidad:</h3>
           <p className="text-lg leading-relaxed">
-            El EUNACOM se basa en guías ministeriales vigentes. Si estudias con material viejo:
+            El Eunacom se basa en guías ministeriales vigentes. Si estudias con material viejo:
           </p>
           <ul className="space-y-3 ml-6 list-disc">
             <li className="text-lg leading-relaxed">Memorizas dosis incorrectas</li>
@@ -238,7 +238,7 @@ export const ContentSection = () => {
             Conocer la respuesta en tu casa no es lo mismo que conocerla bajo presión, con tiempo limitado, con ansiedad, con fatiga mental acumulándose pregunta tras pregunta.
           </p>
           <p className="text-lg leading-relaxed">
-            El EUNACOM no solo evalúa qué sabes. Evalúa cómo funcionas bajo condiciones extremas:
+            El Eunacom no solo evalúa qué sabes. Evalúa cómo funcionas bajo condiciones extremas:
           </p>
           <ul className="space-y-3 ml-6 list-disc">
             <li className="text-lg leading-relaxed">¿Puedes mantener la concentración por 3 horas seguidas?</li>
@@ -252,7 +252,7 @@ export const ContentSection = () => {
           
           <h3 className="text-2xl md:text-3xl font-semibold">Por qué esto separa a los que aprueban de los que reprueban:</h3>
           <p className="text-lg leading-relaxed">
-            Los atletas de élite no solo entrenan la técnica. Entrenan bajo las condiciones exactas de la competencia. Lo mismo aplica para el EUNACOM.
+            Los atletas de élite no solo entrenan la técnica. Entrenan bajo las condiciones exactas de la competencia. Lo mismo aplica para el Eunacom.
           </p>
           <p className="text-lg leading-relaxed">
             Llegar al examen sin haber hecho simulaciones reales es como correr una maratón sin nunca haber corrido más de 5 kilómetros. Teóricamente sabes cómo hacerlo. Prácticamente, colapsarás.
@@ -274,7 +274,7 @@ export const ContentSection = () => {
           
           <div className="bg-muted/50 border-l-4 border-primary p-6 rounded-r-lg">
             <p className="text-base md:text-lg">
-              <strong>Mi Eunacom</strong> ofrece simulaciones que replican exactamente el EUNACOM real. Esto te permite:
+              <strong>Mi Eunacom</strong> ofrece simulaciones que replican exactamente el Eunacom real. Esto te permite:
             </p>
             <ul className="space-y-2 ml-6 mt-3 list-disc">
               <li className="text-base md:text-lg">Identificar tus puntos de quiebre (cuándo empiezas a fatigarte mentalmente)</li>
@@ -308,7 +308,7 @@ export const ContentSection = () => {
             El aprendizaje real no ocurre cuando ves la respuesta correcta. Ocurre cuando entiendes por qué las otras estaban mal.
           </p>
           <p className="text-lg leading-relaxed">
-            El EUNACOM es experto en reformular la misma pregunta de 10 formas diferentes. Si solo memorizas respuestas sin comprender el concepto subyacente, reprobarás.
+            El Eunacom es experto en reformular la misma pregunta de 10 formas diferentes. Si solo memorizas respuestas sin comprender el concepto subyacente, reprobarás.
           </p>
           <p className="text-lg leading-relaxed">
             Es como estudiar para un examen de matemáticas memorizando los resultados sin entender cómo llegaste ahí. Cuando cambian los números, estás perdido.

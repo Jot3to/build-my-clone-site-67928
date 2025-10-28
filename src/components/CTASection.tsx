@@ -28,7 +28,7 @@ export const CTASection = () => {
           <div className="flex justify-center order-1 md:order-2 md:mt-12">
             <img
               src={doctorImage}
-              alt="Médico exitoso después de aprobar el EUNACOM"
+              alt="Médico exitoso después de aprobar el Eunacom"
               className="rounded-3xl shadow-2xl w-full object-cover aspect-[16/9] md:aspect-[5/6]"
             />
           </div>
