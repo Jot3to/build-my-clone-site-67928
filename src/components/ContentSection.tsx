@@ -5,72 +5,75 @@ export const ContentSection = () => {
     <section className="content-section py-16 px-6 md:px-12">
       <div className="container mx-auto max-w-4xl space-y-12">
         <article className="space-y-6">
+          <h2 className="text-3xl md:text-4xl">
+            Truco #1: Dejé de leer libros completos y empecé a responder preguntas desde el día uno
+          </h2>
+          
           <p className="text-lg leading-relaxed">
-            Preparar el EUNACOM marca tu futuro profesional. Miles de médicos se enfrentan cada año a este examen, pero no todos logran el puntaje necesario para ingresar a la especialidad deseada.
+            Durante tres meses me leí medio Harrison. Hice mi primer simulacro: 58 puntos. Colapsé. El problema era que sabía en teoría, pero no sabía aplicar bajo presión.
           </p>
+          
           <p className="text-lg leading-relaxed">
-            ¿La razón? No es falta de inteligencia ni de dedicación. Es estudiar de la manera equivocada.
+            Un amigo me recomendó Mi Eunacom y fue la mejor decisión que tomé. Invertí el modelo: en lugar de leer primero, empecé a aprender respondiendo preguntas desde el día uno. Respondía 50-100 preguntas diarias de las más de 5,000 que tiene la plataforma. Fallaba mucho, pero cada error venía con justificaciones detalladas de TODAS las alternativas—no solo la correcta.
           </p>
+          
           <p className="text-lg leading-relaxed">
-            Estos son los 5 errores que separan a quienes aprueban con excelencia de quienes reprueban:
+            En dos meses, mis simulacros pasaron de 58 a 78 puntos. Mi cerebro dejó de "reconocer" información y empezó a "recuperarla".
           </p>
         </article>
 
         <article className="space-y-6">
           <h2 className="text-3xl md:text-4xl">
-            Error #1: Estudiar solo de libros y videos sin responder preguntas
+            Truco #2: Respondí exactamente 100 preguntas todos los días (sin excepción)
           </h2>
           
           <p className="text-lg leading-relaxed">
-            Llevas meses leyendo Harrison, viendo clases en YouTube, tomando apuntes perfectos. Te sientes preparado. Entonces llega el examen: un caso clínico, cuatro alternativas similares, el cronómetro corriendo. Y te das cuenta de algo devastador: sabes la teoría, pero no sabes resolver la pregunta.
+            Me impuse una regla: 100 preguntas al día. Todos los días. Fines de semana, guardias, festivos. Sin excepción.
           </p>
           
-          <h3 className="text-2xl md:text-3xl font-semibold">El problema:</h3>
           <p className="text-lg leading-relaxed">
-            Leer y ver videos genera la ilusión de aprendizaje. Tu cerebro reconoce la información cuando la ve, pero no puede recuperarla bajo presión. El EUNACOM no evalúa cuánto leíste, evalúa cómo piensas bajo presión, cómo discriminas entre alternativas y cómo aplicas conocimiento en casos reales.
-          </p>
-          <p className="text-lg leading-relaxed">
-            Estudiar sin responder preguntas significa llegar al examen sin saber identificar trampas, sin velocidad para 180 preguntas en 3 horas, sin capacidad de discriminar entre dos alternativas "casi correctas". Puedes estudiar 6 meses y reprobar si no practicaste con preguntas.
+            Lo que hizo esto posible fue que Mi Eunacom funciona en cualquier dispositivo. Respondía desde mi celular en el metro, después de guardias, en cualquier momento. La plataforma registraba mi progreso diario, manteniéndome accountable.
           </p>
           
-          <h3 className="text-2xl md:text-3xl font-semibold">Por qué es LA diferencia entre aprobar y reprobar:</h3>
           <p className="text-lg leading-relaxed">
-            La ciencia del aprendizaje lo confirma: la recuperación activa (obligar a tu cerebro a recuperar información) es exponencialmente más efectiva que el repaso pasivo. Los que aprueban con 700+ puntos no estudiaron más. Estudiaron mejor: respondiendo preguntas desde el día uno.
+            En 90 días son 9,000 preguntas. Ves y revés temas clave, entrenas velocidad, consolidas patrones. La constancia vence a la intensidad.
           </p>
-          
-          <h3 className="text-2xl md:text-3xl font-semibold">La solución:</h3>
-          <div className="bg-muted/50 border-l-4 border-primary p-6 rounded-r-lg">
-            <p className="text-base md:text-lg">
-              <strong>Mi Eunacom</strong> está construido sobre esta metodología: más de 5.000 preguntas tipo EUNACOM con justificaciones detalladas de TODAS las alternativas. El sistema rastrea tu rendimiento por especialidad e identifica exactamente dónde necesitas mejorar. Los números no mienten: el 98% de los estudiantes ingresa a la especialidad deseada porque entrenan como juegan.
-            </p>
-          </div>
         </article>
 
         <article className="space-y-6">
           <h2 className="text-3xl md:text-4xl">
-            Error #2: Estudiar sin un plan estructurado (y perderte en el caos)
+            Truco #3: Dejé de "estudiar en general" y empecé a atacar mis áreas débiles
           </h2>
           
           <p className="text-lg leading-relaxed">
-            Lunes: cardiología. Miércoles: alguien dice que pediatría es clave. Viernes: pánico porque no has tocado ginecología. Domingo: paralizado sin saber por dónde seguir. La ansiedad te come vivo: estudias mucho pero avanzas poco, no sabes si vas bien o mal, no sabes si llegarás preparado.
+            Es más cómodo estudiar lo que ya sabes. Yo amaba cardiología. ¿Ginecología? La evitaba. Resultado: 90% en cardio, 40% en gineco. Eso no da 95 puntos.
           </p>
           
-          <h3 className="text-2xl md:text-3xl font-semibold">El problema:</h3>
           <p className="text-lg leading-relaxed">
-            Estudiar sin estructura es manejar sin GPS de noche. El EUNACOM tiene más de 20 especialidades, cientos de patologías, miles de detalles. Sin un plan, tu cerebro no consolida conocimientos, no identifica prioridades ni mide progreso real. El resultado: estudias mucho pero aprendes poco.
+            Mi Eunacom se convirtió en mi coach personal. Su sistema de análisis rastrea tu rendimiento por especialidad en tiempo real. Cada semana veía exactamente dónde estaba débil y atacaba esas áreas primero. Si gineco estaba en 40%, esa semana hacía 60 de mis 100 preguntas en gineco.
           </p>
           
-          <h3 className="text-2xl md:text-3xl font-semibold">Por qué esto define tu resultado:</h3>
           <p className="text-lg leading-relaxed">
-            Los médicos que ingresan a especialidad no estudian más. Estudian mejor. Con un mapa claro que elimina las conjeturas y les dice exactamente qué hacer cada día.
+            En un mes, mis áreas débiles subieron de 40-50% a 75-80%. Eso me dio el puntaje final: no tener agujeros negros.
+          </p>
+        </article>
+
+        <article className="space-y-6">
+          <h2 className="text-3xl md:text-4xl">
+            Truco #4: Analicé cada error como si fuera un caso clínico real
+          </h2>
+          
+          <p className="text-lg leading-relaxed">
+            Al principio, cuando fallaba veía la respuesta correcta y seguía. Dos semanas después: misma pregunta, diferente formulación. Volvía a fallar.
           </p>
           
-          <h3 className="text-2xl md:text-3xl font-semibold">La solución:</h3>
-          <div className="bg-muted/50 border-l-4 border-primary p-6 rounded-r-lg">
-            <p className="text-base md:text-lg">
-              <strong>Mi Eunacom</strong> organiza las 5.000+ preguntas por especialidad, nivel de dificultad y frecuencia en el examen. El análisis personalizado te muestra en tiempo real dónde vas bien, dónde estás débil y tu proyección de puntaje. No más ansiedad. No más caos. Solo un camino claro hacia tu especialidad.
-            </p>
-          </div>
+          <p className="text-lg leading-relaxed">
+            Cambié mi relación con los errores gracias a Mi Eunacom. Cada pregunta incluye justificaciones de las cuatro alternativas: por qué la correcta es correcta, y por qué cada incorrecta es una trampa. Leía todo, luego profundizaba en los ebooks del MINSAL que incluye la plataforma.
+          </p>
+          
+          <p className="text-lg leading-relaxed">
+            También marcaba preguntas para revisarlas una semana después y confirmar que había aprendido el concepto. Los errores son más valiosos que los aciertos.
+          </p>
         </article>
 
         <div className="my-12 flex justify-center">
@@ -84,95 +87,92 @@ export const ContentSection = () => {
 
         <article className="space-y-6">
           <h2 className="text-3xl md:text-4xl">
-            Error #3: Estudiar con material desactualizado (y memorizar lo incorrecto)
+            Truco #5: Simulé el examen completo cada dos semanas (cronómetro incluido)
           </h2>
           
           <p className="text-lg leading-relaxed">
-            Estudias meses con apuntes de hace 3 años. Memorizas el manejo de HTA de un PDF online. Llegas al examen confiado. La pregunta: "Según la última guía MINSAL 2024...". Marcas lo que estudiaste. Está mal. Las guías cambiaron. Perdiste puntos no porque no estudiaste, sino porque estudiaste lo incorrecto.
+            Cada dos semanas usaba las simulaciones de Mi Eunacom que replican exactamente el EUNACOM real: 180 preguntas, 3 horas, cronómetro corriendo, sin pausas.
           </p>
           
-          <h3 className="text-2xl md:text-3xl font-semibold">El problema:</h3>
           <p className="text-lg leading-relaxed">
-            La medicina evoluciona. Las guías se actualizan. Los protocolos cambian. Confiar en material desactualizado es prepararte para una pelea estudiando las estrategias del oponente del año pasado. Memorizar información incorrecta no solo no suma puntos, sino que genera confusión cuando te enfrentas a la versión actualizada.
+            Las primeras fueron brutales. Me quedaba sin tiempo, me bloqueaba. Pero eso era el punto: entrenar bajo presión.
           </p>
           
-          <h3 className="text-2xl md:text-3xl font-semibold">Por qué esto puede costarte tu especialidad:</h3>
           <p className="text-lg leading-relaxed">
-            El EUNACOM se basa en guías ministeriales vigentes. Material viejo significa dosis incorrectas, algoritmos obsoletos, confusión entre lo que "era" y lo que "es". Estudiaste mucho, pero estudiaste mal.
+            Al terminar cada simulación, Mi Eunacom me mostraba un análisis completo: especialidades donde fallé más, tiempo promedio por pregunta, tipos de preguntas difíciles. Eso me permitía ajustar mi estrategia.
           </p>
           
-          <h3 className="text-2xl md:text-3xl font-semibold">La solución:</h3>
-          <div className="bg-muted/50 border-l-4 border-primary p-6 rounded-r-lg">
-            <p className="text-base md:text-lg">
-              <strong>Mi Eunacom</strong> trabaja con médicos expertos que revisan y actualizan el contenido constantemente. Cada pregunta está validada según guías MINSAL vigentes, con acceso directo a los ebooks oficiales del MINSAL. No dejes tu futuro en manos de un PDF de origen desconocido.
-            </p>
-          </div>
+          <p className="text-lg leading-relaxed">
+            Para mi quinta simulación, ya dominaba el tiempo y la ansiedad. El día del examen real fue la simulación número 12.
+          </p>
         </article>
 
         <article className="space-y-6">
           <h2 className="text-3xl md:text-4xl">
-            Error #4: Llegar al examen sin haber practicado bajo presión real
+            Truco #6: Usé flashcards para los detalles que siempre olvidaba
           </h2>
           
           <p className="text-lg leading-relaxed">
-            Dominas la teoría. Has respondido cientos de preguntas en casa, sin prisa, revisando tus apuntes cuando dudas. Te sientes seguro.
-          </p>
-          <p className="text-lg leading-relaxed">
-            Día del examen: 180 preguntas. 3 horas. Sin pausas. Sin apuntes. El cronómetro corre. Tu corazón se acelera. Empiezas a dudar. Te atrasas. Entras en pánico.
-          </p>
-          <p className="text-lg leading-relaxed">
-            La teoría estaba. Pero el entrenamiento no.
+            Dosis específicas, criterios diagnósticos, valores de laboratorio—mi cerebro no los retenía con una sola lectura.
           </p>
           
-          <h3 className="text-2xl md:text-3xl font-semibold">El problema:</h3>
           <p className="text-lg leading-relaxed">
-            Conocer la respuesta en tu casa no es lo mismo que conocerla bajo presión, con tiempo limitado, con ansiedad, con fatiga mental. El EUNACOM evalúa cómo funcionas bajo condiciones extremas: concentración por 3 horas, distribución de tiempo, decisiones rápidas, manejo de ansiedad. Si nunca entrenaste esto, no estarás listo.
+            Mi Eunacom tiene flashcards personalizables que salvaron mi vida. Cada vez que fallaba por un detalle específico, creaba una flashcard directamente desde la plataforma. Las revisaba 10 minutos antes de dormir.
           </p>
           
-          <h3 className="text-2xl md:text-3xl font-semibold">Por qué esto separa a los que aprueban de los que reprueban:</h3>
           <p className="text-lg leading-relaxed">
-            Los atletas de élite entrenan bajo las condiciones exactas de la competencia. Llegar sin simulaciones es como correr una maratón sin nunca haber corrido más de 5 kilómetros. Teóricamente sabes cómo, prácticamente colapsarás.
+            La plataforma usa repetición espaciada: te muestra más las flashcards que fallas, menos las que dominas. Al final tenía más de 200 flashcards con detalles clave del EUNACOM.
           </p>
-          
-          <h3 className="text-2xl md:text-3xl font-semibold">La solución:</h3>
-          <div className="bg-muted/50 border-l-4 border-primary p-6 rounded-r-lg">
-            <p className="text-base md:text-lg">
-              <strong>Mi Eunacom</strong> ofrece simulaciones que replican exactamente el examen real: 180 preguntas, 3 horas, mismo formato y dificultad. Esto te permite identificar puntos de quiebre, mejorar velocidad sin sacrificar precisión y entrenar toma de decisiones bajo presión. El día del examen no será tu primera vez bajo presión. Será una repetición más.
-            </p>
-          </div>
         </article>
 
         <article className="space-y-6">
           <h2 className="text-3xl md:text-4xl">
-            Error #5: Ver la respuesta correcta y seguir adelante (sin aprender realmente)
+            Truco #7: Busqué apoyo en la comunidad y las masterclass
           </h2>
           
           <p className="text-lg leading-relaxed">
-            Respondes 50 preguntas. Fallas 15. Ves las respuestas correctas, te frustras ("¡obvio, era esa!"), y sigues adelante.
-          </p>
-          <p className="text-lg leading-relaxed">
-            Dos semanas después: exactamente el mismo tipo de pregunta, formulada diferente. Vuelves a fallar.
-          </p>
-          <p className="text-lg leading-relaxed">
-            ¿Por qué? Porque nunca aprendiste el razonamiento. Solo memorizaste una respuesta.
+            Preparar el EUNACOM es solitario. Hay días que quieres rendirte.
           </p>
           
-          <h3 className="text-2xl md:text-3xl font-semibold">El problema:</h3>
           <p className="text-lg leading-relaxed">
-            El aprendizaje real ocurre cuando entiendes por qué las otras estaban mal. El EUNACOM reformula la misma pregunta de 10 formas diferentes. Si solo memorizas respuestas sin comprender el concepto, reprobarás. Es como estudiar matemáticas memorizando resultados: cuando cambian los números, estás perdido.
+            Las masterclass mensuales en vivo de Mi Eunacom con médicos especialistas me mantenían actualizado y motivado. Cubrían temas de alto rendimiento, resolvían dudas, compartían tips.
           </p>
           
-          <h3 className="text-2xl md:text-3xl font-semibold">Por qué esto determina tu retención:</h3>
           <p className="text-lg leading-relaxed">
-            Los que aprueban con puntajes altos no tienen mejor memoria. Tienen mejor comprensión. Cuando fallas sin analizar el error profundamente, no entiendes el razonamiento clínico ni identificas patrones. Resultado: mucho esfuerzo, cero progreso.
+            Además, la comunidad de médicos preparando el examen en la plataforma fue clave. Compartíamos dudas, celebrábamos avances, nos empujábamos en los días malos. Fue la diferencia entre rendirse y seguir adelante.
+          </p>
+        </article>
+
+        <article className="space-y-6">
+          <h2 className="text-3xl md:text-4xl">
+            Lo que nadie te cuenta sobre sacar 95 puntos
+          </h2>
+          
+          <p className="text-lg leading-relaxed">
+            No soy un genio ni estudié 16 horas al día. Saqué 95 puntos porque:
           </p>
           
-          <h3 className="text-2xl md:text-3xl font-semibold">La solución:</h3>
-          <div className="bg-muted/50 border-l-4 border-primary p-6 rounded-r-lg">
-            <p className="text-base md:text-lg">
-              <strong>Mi Eunacom</strong> incluye justificaciones completas en sus 5.000+ preguntas: por qué cada alternativa es correcta o incorrecta, contexto clínico que refuerza el concepto, y razonamiento paso a paso. Este aprendizaje profundo explica el 98% de ingreso a especialidad. No acumules respuestas. Acumula comprensión.
-            </p>
-          </div>
+          <ul className="space-y-3 text-lg list-disc pl-6">
+            <li>Aprendí respondiendo preguntas con Mi Eunacom, no leyendo teoría</li>
+            <li>Fui obsesivamente constante (100 preguntas diarias)</li>
+            <li>Usé el análisis para atacar mis áreas débiles con precisión</li>
+            <li>Convertí cada error en aprendizaje profundo</li>
+            <li>Entrené bajo presión con simulaciones reales</li>
+            <li>Usé flashcards personalizables para detalles clave</li>
+            <li>Me apoyé en masterclass y comunidad</li>
+          </ul>
+          
+          <p className="text-lg leading-relaxed mt-6">
+            No hay magia. Solo método, constancia y la herramienta correcta.
+          </p>
+          
+          <p className="text-lg leading-relaxed">
+            El 98% de los estudiantes que usan Mi Eunacom ingresa a la especialidad deseada—no es casualidad.
+          </p>
+          
+          <p className="text-lg leading-relaxed font-semibold">
+            La pregunta es: ¿vas a seguir estudiando como todos, o vas a estudiar como los que sacan 95 puntos?
+          </p>
         </article>
       </div>
     </section>

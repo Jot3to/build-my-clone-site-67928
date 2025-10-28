@@ -7,10 +7,19 @@ export const HeroSection = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="grid md:grid-cols-[1.2fr,1fr] gap-6 md:gap-10 items-center">
           <div className="space-y-4">
-            <Badge>Guía de Preparación</Badge>
+            <Badge>Historia de Éxito</Badge>
             <h1 className="text-3xl md:text-4xl lg:text-5xl leading-tight font-normal">
-              Los 5 errores más comunes que te pueden hacer reprobar el Eunacom (y cómo evitarlos)
+              Los 7 trucos que me permitieron sacar 95 puntos en el Eunacom (y que nadie me enseñó)
             </h1>
+            <p className="text-lg leading-relaxed opacity-80 italic">
+              Por Alejandro Díaz, médico dermatólogo
+            </p>
+            <p className="text-lg leading-relaxed mt-4">
+              Cuando vi mi puntaje en la pantalla—95 puntos—no lo podía creer. Seis meses antes mis simulacros no pasaban de 60 puntos. Hoy soy residente de dermatología. Y no fue por suerte ni por ser más inteligente. Fue porque descubrí que preparar el EUNACOM no se trata de estudiar más, sino de estudiar distinto.
+            </p>
+            <p className="text-lg leading-relaxed mt-3 font-semibold">
+              Estos son los 7 trucos que cambiaron todo:
+            </p>
             
             {/* Image shown after title on mobile, in grid on desktop */}
             <div className="flex justify-center md:hidden mt-5">

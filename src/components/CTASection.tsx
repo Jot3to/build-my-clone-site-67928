@@ -8,16 +8,19 @@ export const CTASection = () => {
         <div className="grid md:grid-cols-[1.4fr,1fr] gap-8 md:gap-12 items-center">
           <div className="space-y-6 text-white order-2 md:order-1">
             <h2 className="text-3xl md:text-4xl">
-              Tu futuro no depende de la suerte
+              🩺 Comienza tu propia historia de éxito
             </h2>
             <p className="text-base md:text-lg leading-relaxed opacity-90">
-              Estos 5 errores los vemos una y otra vez: médicos brillantes que estudian meses enteros, leyendo los mismos libros, viendo las mismas clases, memorizando la misma teoría... y reprueban. No porque no sepan, sino porque nunca entrenaron como se enfrentarían al examen real.
+              Alejandro se preparó durante 4 meses con Mi Eunacom. Hoy está cursando dermatología en la Universidad de Chile, la especialidad que siempre soñó, con un puntaje que le abrió todas las puertas.
             </p>
             <p className="text-base md:text-lg leading-relaxed opacity-90">
-              Por eso existe Mi Eunacom, una plataforma construida sobre lo que realmente funciona: aprender respondiendo preguntas, entrenar bajo presión real, usar material actualizado constantemente y tener un plan claro que elimine la ansiedad del "¿voy bien o mal?".
+              Miles de médicos en Chile ya confiaron en Mi Eunacom para aprobar el EUNACOM con excelencia. Cada uno de ellos nos recuerda que no se trata de estudiar más horas, sino de estudiar con el método correcto, las herramientas adecuadas y cero estrés innecesario.
             </p>
             <p className="text-base md:text-lg leading-relaxed opacity-90 font-semibold">
-              Tu especialidad te está esperando. La pregunta es: ¿vas a seguir estudiando como siempre, o vas a cambiar tu estrategia hoy?
+              98% de ingreso a especialidad | +5.000 preguntas actualizadas | Simulaciones reales
+            </p>
+            <p className="text-base md:text-lg leading-relaxed opacity-90 font-semibold">
+              ¿Listo para escribir tu propia historia? Comienza hoy en mieunacom.cl
             </p>
             <button 
               className="bg-white text-accent hover:bg-white/90 font-semibold text-base md:text-lg px-6 md:px-8 py-4 md:py-6 w-full rounded-lg transition-colors"
