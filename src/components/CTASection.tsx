@@ -11,26 +11,13 @@ export const CTASection = () => {
               Tu futuro no depende de la suerte
             </h2>
             <p className="text-base md:text-lg leading-relaxed opacity-90">
-              Reprobar el EUNACOM rara vez es por falta de inteligencia o dedicación. Es por estudiar de la manera equivocada.
+              Estos 5 errores los vemos una y otra vez: médicos brillantes que estudian meses enteros, leyendo los mismos libros, viendo las mismas clases, memorizando la misma teoría... y reprueban. No porque no sepan, sino porque nunca entrenaron como se enfrentarían al examen real.
             </p>
             <p className="text-base md:text-lg leading-relaxed opacity-90">
-              Los 5 errores que acabas de leer son evitables. La diferencia entre aprobar con excelencia y reprobar está en:
-            </p>
-            <ul className="space-y-3 opacity-90">
-              <li className="text-base md:text-lg leading-relaxed">✅ Entrenar con preguntas, no solo leer teoría</li>
-              <li className="text-base md:text-lg leading-relaxed">✅ Seguir un plan estructurado que elimine el caos</li>
-              <li className="text-base md:text-lg leading-relaxed">✅ Usar material actualizado y confiable</li>
-              <li className="text-base md:text-lg leading-relaxed">✅ Simular el examen bajo condiciones reales</li>
-              <li className="text-base md:text-lg leading-relaxed">✅ Aprender de cada error en profundidad</li>
-            </ul>
-            <p className="text-base md:text-lg leading-relaxed opacity-90">
-              Miles de médicos ya están preparándose con el método correcto. Con herramientas diseñadas específicamente para el EUNACOM chileno. Con resultados comprobados.
+              Por eso existe Mi Eunacom, una plataforma construida sobre lo que realmente funciona: aprender respondiendo preguntas, entrenar bajo presión real, usar material actualizado constantemente y tener un plan claro que elimine la ansiedad del "¿voy bien o mal?".
             </p>
             <p className="text-base md:text-lg leading-relaxed opacity-90 font-semibold">
-              ¿Vas a seguir estudiando como siempre y esperando resultados diferentes? O vas a cambiar tu estrategia hoy?
-            </p>
-            <p className="text-base md:text-lg leading-relaxed opacity-90 font-semibold">
-              Tu especialidad te está esperando. Pero no llegará por suerte. Llegará por preparación inteligente.
+              Tu especialidad te está esperando. La pregunta es: ¿vas a seguir estudiando como siempre, o vas a cambiar tu estrategia hoy?
             </p>
             
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-4 md:p-6 border border-white/20 mt-8">
