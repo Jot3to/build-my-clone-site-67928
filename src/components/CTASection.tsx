@@ -5,7 +5,7 @@ export const CTASection = () => {
   return (
     <section className="cta-section py-12 md:py-20">
       <div className="container mx-auto max-w-6xl px-6 md:px-12">
-        <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
+        <div className="grid md:grid-cols-[1.4fr,1fr] gap-8 md:gap-12 items-center">
           <div className="space-y-6 text-white order-2 md:order-1">
             <h2 className="text-3xl md:text-4xl">
               Tu futuro no depende de la suerte
@@ -25,11 +25,11 @@ export const CTASection = () => {
               👉 Comienza tu preparación en mieunacom.cl
             </button>
           </div>
-          <div className="flex justify-center order-1 md:order-2">
+          <div className="flex justify-center order-1 md:order-2 md:mt-12">
             <img
               src={doctorImage}
               alt="Médico exitoso después de aprobar el EUNACOM"
-              className="rounded-3xl shadow-2xl w-full object-cover aspect-[16/9] md:aspect-[3/4]"
+              className="rounded-3xl shadow-2xl w-full object-cover aspect-[16/9] md:aspect-[5/6]"
             />
           </div>
         </div>
