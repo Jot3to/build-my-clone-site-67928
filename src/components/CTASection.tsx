@@ -1,4 +1,5 @@
 import { Button } from "./ui/button";
+import doctorImage from "@/assets/successful-doctor-portrait.jpg";
 
 export const CTASection = () => {
   return (
@@ -55,8 +56,8 @@ export const CTASection = () => {
           </div>
           <div className="flex justify-center order-1 md:order-2">
             <img
-              src={new URL("../assets/wedding-couple-portrait.jpg", import.meta.url).href}
-              alt="Estudiante de medicina preparándose para el EUNACOM"
+              src={doctorImage}
+              alt="Médico exitoso después de aprobar el EUNACOM"
               className="rounded-3xl shadow-2xl w-full max-w-sm object-cover"
             />
           </div>

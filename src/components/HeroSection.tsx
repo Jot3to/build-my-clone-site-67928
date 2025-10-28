@@ -1,4 +1,5 @@
 import { Badge } from "./Badge";
+import heroImage from "@/assets/hero-medical-student.jpg";
 
 export const HeroSection = () => {
   return (
@@ -26,8 +27,8 @@ export const HeroSection = () => {
             {/* Image shown after title on mobile, in grid on desktop */}
             <div className="flex justify-center md:hidden mt-6">
               <img
-                src={new URL("../assets/hero-engaged-couple.jpg", import.meta.url).href}
-                alt="Preparación para el examen EUNACOM"
+                src={heroImage}
+                alt="Estudiante de medicina preparándose para el EUNACOM"
                 className="rounded-3xl shadow-2xl w-full object-cover aspect-[4/3]"
                 style={{ boxShadow: 'var(--shadow-soft)' }}
               />
@@ -38,8 +39,8 @@ export const HeroSection = () => {
           {/* Image hidden on mobile, shown in grid on desktop */}
           <div className="hidden md:flex justify-center items-center">
             <img
-              src={new URL("../assets/hero-engaged-couple.jpg", import.meta.url).href}
-              alt="Preparación para el examen EUNACOM"
+              src={heroImage}
+              alt="Estudiante de medicina preparándose para el EUNACOM"
               className="rounded-3xl shadow-2xl w-full object-cover aspect-[4/3]"
               style={{ boxShadow: 'var(--shadow-soft)' }}
             />

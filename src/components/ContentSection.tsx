@@ -1,3 +1,5 @@
+import studyGroupImage from "@/assets/students-studying-group.jpg";
+
 export const ContentSection = () => {
   return (
     <section className="content-section py-16 px-6 md:px-12">
@@ -147,8 +149,8 @@ export const ContentSection = () => {
 
         <div className="my-12 flex justify-center">
           <img
-            src={new URL("../assets/couple-planning-wedding.jpg", import.meta.url).href}
-            alt="Estudiante de medicina preparando el EUNACOM"
+            src={studyGroupImage}
+            alt="Estudiantes de medicina preparando el EUNACOM en grupo"
             className="rounded-3xl shadow-2xl w-full max-w-2xl object-cover"
             style={{ boxShadow: 'var(--shadow-soft)' }}
           />
