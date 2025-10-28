@@ -7,7 +7,7 @@ export const HeroSection = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="grid md:grid-cols-[1.2fr,1fr] gap-6 md:gap-10 items-center">
           <div className="space-y-4">
-            <Badge>Guía de Preparación Eunacom</Badge>
+            <Badge>Guía de Preparación</Badge>
             <h1 className="text-3xl md:text-4xl lg:text-5xl leading-tight font-normal">
               Los 5 errores más comunes que te pueden hacer reprobar el Eunacom (y cómo evitarlos)
             </h1>
