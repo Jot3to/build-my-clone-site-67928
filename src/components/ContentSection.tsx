@@ -4,56 +4,151 @@ export const ContentSection = () => {
       <div className="container mx-auto max-w-4xl space-y-12">
         <article className="space-y-6">
           <p className="text-lg leading-relaxed">
-            Organizar un matrimonio es una mezcla perfecta de ilusión, nervios y mil decisiones. Entre elegir el lugar, las flores o la música, la lista de regalos suele parecer un detalle más… hasta que te das cuenta de que puede marcar una gran diferencia en tu experiencia (y en tu bolsillo).
+            Preparar el EUNACOM es un desafío que marca tu futuro profesional. Miles de médicos se enfrentan cada año a este examen, pero no todos logran el puntaje necesario para ingresar a la especialidad deseada.
           </p>
           <p className="text-lg leading-relaxed">
-            Después de acompañar a miles de parejas, hemos visto los mismos errores repetirse una y otra vez. Evitar estos cinco puede ahorrarte tiempo, estrés y más de una desilusión.
+            ¿La razón? No es falta de inteligencia ni de dedicación. Es estudiar de la manera equivocada.
+          </p>
+          <p className="text-lg leading-relaxed">
+            Estos son los 5 errores más comunes que separan a quienes aprueban con excelencia de quienes reprueban (y cómo solucionarlos):
           </p>
         </article>
 
         <article className="space-y-6">
           <h2 className="text-3xl md:text-4xl">
-            Error 1: Hacer la lista en una tienda que te amarra
+            Error #1: Estudiar solo de libros y videos sin responder preguntas
           </h2>
+          
+          <h3 className="text-2xl md:text-3xl font-semibold">El dolor real:</h3>
           <p className="text-lg leading-relaxed">
-            Durante años, lo típico era crear la lista en una casa comercial. Prometen que recibirás el dinero de tus regalos, pero muchos novios descubren —cuando ya están casados y con la tarjeta en la mano— que en realidad no están recibiendo dinero, sino una tarjeta de crédito con condiciones.
+            Llevas 4 meses leyendo Harrison. Has visto decenas de horas de clases en YouTube. Tus resúmenes están perfectos, organizados por especialidad, subrayados con colores. Te sientes preparado.
           </p>
           <p className="text-lg leading-relaxed">
-            Si tienes una deuda activa con esa tarjeta, el monto de tus regalos se usa automáticamente para pagarla. Y aunque estés al día, lo que recibes no es libre: tiene topes, restricciones y letras chicas.
+            Entonces llega el día del examen. Primera pregunta: un caso clínico de neumonía comunitaria. Cuatro alternativas que parecen correctas. El cronómetro corre. Y te das cuenta de algo devastador: sabes la teoría, pero no sabes resolver la pregunta.
           </p>
+          
+          <h3 className="text-2xl md:text-3xl font-semibold">El problema:</h3>
+          <p className="text-lg leading-relaxed">
+            Leer y ver videos genera la ilusión de aprendizaje. Tu cerebro reconoce la información cuando la ve, pero eso no significa que pueda recuperarla bajo presión. Es como ver videos de cómo nadar sin meterte a la piscina: entiendes la técnica, pero te ahogarás en el agua.
+          </p>
+          <p className="text-lg leading-relaxed">
+            El EUNACOM no evalúa cuánto leíste. Evalúa cómo piensas bajo presión, cómo discriminas entre alternativas similares, y cómo aplicas conocimiento en casos clínicos reales.
+          </p>
+          <p className="text-lg leading-relaxed">
+            Y eso no se aprende leyendo. Se aprende respondiendo preguntas.
+          </p>
+          
+          <h3 className="text-2xl md:text-3xl font-semibold">Por qué es LA diferencia entre aprobar y reprobar:</h3>
+          <p className="text-lg leading-relaxed">
+            Estudiar sin responder preguntas significa que llegas al examen:
+          </p>
+          <ul className="space-y-3 ml-6 list-disc">
+            <li className="text-lg leading-relaxed">Sin saber identificar las trampas clásicas del EUNACOM</li>
+            <li className="text-lg leading-relaxed">Sin velocidad para responder 180 preguntas en 3 horas</li>
+            <li className="text-lg leading-relaxed">Sin capacidad de discriminar entre dos alternativas "casi correctas"</li>
+            <li className="text-lg leading-relaxed">Sin haber entrenado tu razonamiento clínico bajo presión</li>
+            <li className="text-lg leading-relaxed">Sin conocer los patrones que el examen repite año tras año</li>
+          </ul>
+          <p className="text-lg leading-relaxed">
+            La verdad incómoda: puedes haber estudiado 6 meses y reprobar si no practicaste con preguntas. Y puedes estudiar 3 meses y aprobar con excelencia si tu preparación se basó en resolver miles de preguntas.
+          </p>
+          
+          <h3 className="text-2xl md:text-3xl font-semibold">La solución:</h3>
+          <p className="text-lg leading-relaxed">
+            Invierte el modelo: aprende respondiendo preguntas, no solo leyendo. La ciencia del aprendizaje lo confirma: la recuperación activa (obligar a tu cerebro a recuperar información) es exponencialmente más efectiva que el repaso pasivo.
+          </p>
+          <p className="text-lg leading-relaxed">
+            Esto significa:
+          </p>
+          <ul className="space-y-3 ml-6 list-disc">
+            <li className="text-lg leading-relaxed">Responder preguntas TODOS los días, desde el primer día de preparación</li>
+            <li className="text-lg leading-relaxed">Exponerte al formato real del examen constantemente</li>
+            <li className="text-lg leading-relaxed">Entrenar tu velocidad y precisión bajo condiciones reales</li>
+            <li className="text-lg leading-relaxed">Aprender de cada error, no solo memorizar respuestas</li>
+          </ul>
+          
           <div className="bg-muted/50 border-l-4 border-primary p-6 rounded-r-lg">
-            <p className="text-base md:text-lg italic">
-              "Si me hubieran dicho esto antes, jamás habría elegido Novios París. Todo el monto se fue a pagar la tarjeta."<br />
-              <span className="text-sm text-muted-foreground">— Isabel, reseña en matrimonios.cl (1/5 estrellas)</span>
+            <p className="text-base md:text-lg">
+              <strong>Mi Eunacom</strong> está construido sobre esta metodología comprobada: más de 5.000 preguntas tipo EUNACOM que replican exactamente el formato, dificultad y estilo del examen real. Cada pregunta incluye justificaciones detalladas de TODAS las alternativas, no solo la correcta, para que entiendas el razonamiento clínico completo.
+            </p>
+            <p className="text-base md:text-lg mt-4">
+              El sistema rastrea tu rendimiento por especialidad, identifica tus áreas débiles y te muestra exactamente dónde necesitas mejorar. Los ebooks y masterclass están disponibles como apoyo teórico, pero el corazón de la preparación son las preguntas: porque así es exactamente como te evaluarán el día del examen.
+            </p>
+            <p className="text-base md:text-lg mt-4 font-semibold">
+              Los números no mienten: el 98% de los estudiantes de Mi Eunacom ingresa a la especialidad deseada. ¿Por qué? Porque entrenan como juegan.
             </p>
           </div>
-          <p className="text-lg leading-relaxed">
-            Otros novios se quejan de beneficios que nunca llegan o descuentos que solo aplican en ciertas tiendas. Lo que parecía práctico termina siendo un proceso lento, engorroso y muy poco transparente.
-          </p>
-          <p className="text-lg leading-relaxed">
-            <strong>💡 Cómo evitarlo:</strong> elige una plataforma libre y directa. Con Mi Lista de Novios, el dinero de tus regalos llega a tu cuenta bancaria, sin intermediarios, sin letras chicas y sin amarras. Tú decides en qué usarlo: tu luna de miel, tu casa, o simplemente darte un respiro después del gran día.
-          </p>
         </article>
 
         <article className="space-y-6">
           <h2 className="text-3xl md:text-4xl">
-            Error 2: Llenarla de cosas que no los representan
+            Error #2: Estudiar sin un plan estructurado (y perderte en el caos)
           </h2>
+          
+          <h3 className="text-2xl md:text-3xl font-semibold">El dolor real:</h3>
           <p className="text-lg leading-relaxed">
-            Tostadoras, platos, licuadoras… todo eso está bien. Pero seamos honestos: una lista llena de artículos se ve más como una lista de supermercado que como una invitación especial a ser parte de su historia.
+            Es lunes. Decides estudiar cardiología porque "te sientes débil ahí". El miércoles alguien te dice que pediatría es lo más importante. El viernes entras en pánico porque no has tocado ginecología. El domingo estás paralizado sin saber por dónde seguir.
           </p>
           <p className="text-lg leading-relaxed">
-            Y eso cambia por completo la experiencia del invitado. Recibir un link con una lista de productos impersonales se siente frío, casi como si le mandaras un pedido del súper. En cambio, recibir una lista con regalos simbólicos y mensajes lindos —como "nuestra primera escapada juntos" o "una cena sin pantallas"— emociona, hace sonreír y conecta.
+            La ansiedad te come vivo: sientes que estudias mucho pero avanzas poco. No sabes si vas bien o mal. No tienes idea de cuánto falta. Y lo peor: no sabes si llegarás preparado.
+          </p>
+          
+          <h3 className="text-2xl md:text-3xl font-semibold">El problema:</h3>
+          <p className="text-lg leading-relaxed">
+            Estudiar sin estructura es como manejar de noche sin GPS en un lugar desconocido. Avanzas, sí, pero ¿hacia dónde? ¿Cuánto falta? ¿Te estás acercando o alejando?
           </p>
           <p className="text-lg leading-relaxed">
-            <strong>💡 Cómo evitarlo:</strong> haz que tu lista se vea bonita y cuente quiénes son. En Mi Lista de Novios, tú inventas los regalos, defines los precios y das sentido a cada uno. Tus invitados no solo aportan dinero: te ayudan a construir recuerdos.
+            El EUNACOM es un examen con más de 20 especialidades, cientos de patologías, miles de detalles. Sin un plan claro, tu cerebro no logra:
           </p>
+          <ul className="space-y-3 ml-6 list-disc">
+            <li className="text-lg leading-relaxed">Consolidar conocimientos de forma progresiva</li>
+            <li className="text-lg leading-relaxed">Identificar prioridades (qué temas son más frecuentes)</li>
+            <li className="text-lg leading-relaxed">Medir tu progreso real</li>
+            <li className="text-lg leading-relaxed">Distribuir el tiempo efectivamente</li>
+          </ul>
+          <p className="text-lg leading-relaxed">
+            El resultado: estudias mucho pero aprendes poco. Y llegas al examen con la terrible sensación de "me faltó tiempo".
+          </p>
+          
+          <h3 className="text-2xl md:text-3xl font-semibold">Por qué esto define tu resultado:</h3>
+          <p className="text-lg leading-relaxed">
+            La diferencia entre los que aprueban con 700+ puntos y los que reprueban no es la cantidad de horas de estudio. Es la calidad y estructura de esas horas.
+          </p>
+          <p className="text-lg leading-relaxed">
+            Los médicos que ingresan a la especialidad deseada no estudian más. Estudian mejor. Con un mapa claro que les dice exactamente qué hacer cada día.
+          </p>
+          
+          <h3 className="text-2xl md:text-3xl font-semibold">La solución:</h3>
+          <p className="text-lg leading-relaxed">
+            Necesitas un sistema progresivo que elimine las conjeturas:
+          </p>
+          <ul className="space-y-3 ml-6 list-disc">
+            <li className="text-lg leading-relaxed">Plan de estudio diario que cubra todo el temario de forma estratégica</li>
+            <li className="text-lg leading-relaxed">Priorización basada en frecuencia real del examen (no todas las patologías tienen el mismo peso)</li>
+            <li className="text-lg leading-relaxed">Métricas claras de progreso (saber exactamente dónde estás parado)</li>
+            <li className="text-lg leading-relaxed">Adaptabilidad: el plan se ajusta según tus fortalezas y debilidades</li>
+          </ul>
+          
+          <div className="bg-muted/50 border-l-4 border-primary p-6 rounded-r-lg">
+            <p className="text-base md:text-lg">
+              <strong>Mi Eunacom</strong> te entrega exactamente esto: un sistema que organiza las 5.000+ preguntas por especialidad, nivel de dificultad y frecuencia en el examen. El análisis personalizado te muestra en tiempo real:
+            </p>
+            <ul className="space-y-2 ml-6 mt-3 list-disc">
+              <li className="text-base md:text-lg">En qué áreas vas bien (y puedes reducir tiempo)</li>
+              <li className="text-base md:text-lg">En qué áreas estás débil (y necesitas reforzar)</li>
+              <li className="text-base md:text-lg">Tu progreso comparado con el promedio de aprobación</li>
+              <li className="text-base md:text-lg">Proyección de puntaje basada en tu rendimiento actual</li>
+            </ul>
+            <p className="text-base md:text-lg mt-4 font-semibold">
+              No más ansiedad. No más caos. Solo un camino claro hacia tu especialidad.
+            </p>
+          </div>
         </article>
 
         <div className="my-12 flex justify-center">
           <img
             src={new URL("../assets/couple-planning-wedding.jpg", import.meta.url).href}
-            alt="Pareja planificando juntos su lista de regalos de matrimonio"
+            alt="Estudiante de medicina preparando el EUNACOM"
             className="rounded-3xl shadow-2xl w-full max-w-2xl object-cover"
             style={{ boxShadow: 'var(--shadow-soft)' }}
           />
@@ -61,70 +156,214 @@ export const ContentSection = () => {
 
         <article className="space-y-6">
           <h2 className="text-3xl md:text-4xl">
-            Error 3: Complicarles la vida a los invitados
+            Error #3: Estudiar con material desactualizado (y memorizar lo incorrecto)
           </h2>
+          
+          <h3 className="text-2xl md:text-3xl font-semibold">El dolor real:</h3>
           <p className="text-lg leading-relaxed">
-            Muchos invitados, sobre todo los mayores, se frustran cuando deben crear cuentas, usar puntos o entender sistemas enredados. Y lo más triste es que, por no saber cómo hacerlo, terminan no regalando nada.
+            Estudias durante meses con los apuntes de tu amigo que aprobó hace 3 años. Memorizas el manejo de hipertensión arterial de un PDF que encontraste online. Llegas al examen confiado.
           </p>
           <p className="text-lg leading-relaxed">
-            <strong>💡 Cómo evitarlo:</strong> usa una plataforma pensada para todos. En Mi Lista de Novios, tus invitados pagan con tarjeta de débito o crédito vía Transbank, sin registros ni pasos extra. Reciben un mail automático con el detalle del regalo y su mensaje, y tú puedes ver todo desde tu cuenta: quién regaló, cuánto, cuándo y qué escribió.
+            La pregunta: "Según la última guía MINSAL 2024, el tratamiento de primera línea en HTA sin comorbilidades es...". Marcas lo que estudiaste. Está mal. Las guías cambiaron.
           </p>
           <p className="text-lg leading-relaxed">
-            Así, regalar se vuelve tan fácil como hacer una compra online… pero con emoción.
+            Perdiste puntos no porque no estudiaste, sino porque estudiaste lo incorrecto.
           </p>
-        </article>
-
-        <article className="space-y-6">
-          <h2 className="text-3xl md:text-4xl">
-            Error 4: No revisar los costos ocultos
-          </h2>
+          
+          <h3 className="text-2xl md:text-3xl font-semibold">El problema:</h3>
           <p className="text-lg leading-relaxed">
-            Muchas plataformas descuentan parte del dinero que recibes o esconden comisiones detrás de "beneficios especiales". A simple vista parece poco, pero cuando sumas todos los regalos, la diferencia puede ser enorme.
-          </p>
-          <div className="bg-muted/50 border-l-4 border-primary p-6 rounded-r-lg">
-            <p className="text-base md:text-lg italic">
-              💬 "No es lo que te ofrecen. La forma en que plantean los beneficios es engañosa. Te dicen una cosa y después aplican otra."<br />
-              <span className="text-sm text-muted-foreground">— Reseña real en matrimonios.cl</span>
-            </p>
-          </div>
-          <p className="text-lg leading-relaxed">
-            <strong>💡 Cómo evitarlo:</strong> busca transparencia real. En Mi Lista de Novios, el servicio es 100% gratuito para los novios. Si un regalo vale $50.000, recibes exactamente $50.000. El único recargo del 10% lo paga el invitado (como cualquier compra online) y cubre el sistema y los medios de pago.
+            La medicina evoluciona. Las guías clínicas se actualizan. Los protocolos cambian. Lo que era correcto en 2022 puede estar obsoleto en 2025.
           </p>
           <p className="text-lg leading-relaxed">
-            Nada escondido. Nada que reste.
-          </p>
-        </article>
-
-        <article className="space-y-6">
-          <h2 className="text-3xl md:text-4xl">
-            Error 5: No aprovechar las herramientas que realmente facilitan tu matrimonio
-          </h2>
-          <p className="text-lg leading-relaxed">
-            Hoy todas las plataformas prometen "beneficios", pero pocas entregan herramientas reales. Mientras algunos hablan de puntos o descuentos llenos de condiciones, en Mi Lista de Novios decidimos hacer algo distinto: darte funcionalidades que te simplifican la vida.
+            Confiar en material desactualizado es como prepararte para una pelea estudiando las estrategias de tu oponente del año pasado. El problema: ahora pelea diferente.
           </p>
           <p className="text-lg leading-relaxed">
-            <strong>💡 Cómo evitarlo:</strong> elige una lista que te acompañe de verdad en la organización. Además de recibir el dinero de tus regalos, en Mi Lista de Novios puedes:
+            Peor aún: memorizar información incorrecta es doblemente peligroso. No solo no suma puntos, sino que genera confusión cuando te enfrentas a la versión actualizada.
           </p>
-          <ul className="space-y-3 ml-6">
-            <li className="text-lg leading-relaxed">
-              <strong>Acumular Millas LATAM Pass</strong> por cada regalo recibido.
-            </li>
-            <li className="text-lg leading-relaxed">
-              <strong>Contactar automáticamente a tus invitados por mail</strong> para recordarles tu lista (sin tener que hacerlo tú).
-            </li>
-            <li className="text-lg leading-relaxed">
-              <strong>Organizar las mesas de tu matrimonio</strong> con un plano virtual.
-            </li>
-            <li className="text-lg leading-relaxed">
-              <strong>Crear tu checklist y presupuesto</strong> dentro de la misma cuenta.
-            </li>
-            <li className="text-lg leading-relaxed">
-              <strong>Compartir un álbum de fotos</strong> donde tus invitados suben las imágenes de ese día en tiempo real.
-            </li>
+          
+          <h3 className="text-2xl md:text-3xl font-semibold">Por qué esto puede costarte tu especialidad:</h3>
+          <p className="text-lg leading-relaxed">
+            El EUNACOM se basa en guías ministeriales vigentes. Si estudias con material viejo:
+          </p>
+          <ul className="space-y-3 ml-6 list-disc">
+            <li className="text-lg leading-relaxed">Memorizas dosis incorrectas</li>
+            <li className="text-lg leading-relaxed">Aprendes algoritmos obsoletos</li>
+            <li className="text-lg leading-relaxed">Te confundes entre lo que "era" y lo que "es"</li>
+            <li className="text-lg leading-relaxed">Pierdes puntos en preguntas que "deberías" saber</li>
           </ul>
           <p className="text-lg leading-relaxed">
-            Todo en un solo lugar. Sin descargas, sin apps extra, y sin letras chicas.
+            Y lo más frustrante: estudiaste mucho, pero estudiaste mal. El esfuerzo estuvo, pero la fuente era incorrecta.
           </p>
+          
+          <h3 className="text-2xl md:text-3xl font-semibold">La solución:</h3>
+          <p className="text-lg leading-relaxed">
+            Solo hay una forma de garantizar que estudias contenido correcto: usar fuentes oficiales y actualizadas constantemente.
+          </p>
+          <p className="text-lg leading-relaxed">
+            Esto significa:
+          </p>
+          <ul className="space-y-3 ml-6 list-disc">
+            <li className="text-lg leading-relaxed">Material revisado por médicos especialistas activos</li>
+            <li className="text-lg leading-relaxed">Alineación con guías MINSAL vigentes</li>
+            <li className="text-lg leading-relaxed">Actualización continua del contenido</li>
+            <li className="text-lg leading-relaxed">Acceso directo a documentos oficiales</li>
+          </ul>
+          
+          <div className="bg-muted/50 border-l-4 border-primary p-6 rounded-r-lg">
+            <p className="text-base md:text-lg">
+              <strong>Mi Eunacom</strong> trabaja con un equipo de médicos expertos que revisa y actualiza el contenido constantemente. Cada pregunta está validada según las guías ministeriales más recientes. Además, tienes acceso directo a los ebooks oficiales del MINSAL, todo en un solo lugar.
+            </p>
+            <p className="text-base md:text-lg mt-4 font-semibold">
+              No dejes tu futuro en manos de un PDF de origen desconocido. Usa fuentes que puedas confiar.
+            </p>
+          </div>
+        </article>
+
+        <article className="space-y-6">
+          <h2 className="text-3xl md:text-4xl">
+            Error #4: Llegar al examen sin haber practicado bajo presión real
+          </h2>
+          
+          <h3 className="text-2xl md:text-3xl font-semibold">El dolor real:</h3>
+          <p className="text-lg leading-relaxed">
+            Dominas la teoría. Has respondido cientos de preguntas en casa, sin prisa, revisando tus apuntes cuando dudas. Te sientes seguro.
+          </p>
+          <p className="text-lg leading-relaxed">
+            Día del examen: 180 preguntas. 3 horas. Sin pausas. Sin apuntes. El cronómetro corre. Tu corazón se acelera. Empiezas a dudar. Te atrasas. Entras en pánico.
+          </p>
+          <p className="text-lg leading-relaxed">
+            La teoría estaba. Pero el entrenamiento no.
+          </p>
+          
+          <h3 className="text-2xl md:text-3xl font-semibold">El problema:</h3>
+          <p className="text-lg leading-relaxed">
+            Conocer la respuesta en tu casa no es lo mismo que conocerla bajo presión, con tiempo limitado, con ansiedad, con fatiga mental acumulándose pregunta tras pregunta.
+          </p>
+          <p className="text-lg leading-relaxed">
+            El EUNACOM no solo evalúa qué sabes. Evalúa cómo funcionas bajo condiciones extremas:
+          </p>
+          <ul className="space-y-3 ml-6 list-disc">
+            <li className="text-lg leading-relaxed">¿Puedes mantener la concentración por 3 horas seguidas?</li>
+            <li className="text-lg leading-relaxed">¿Sabes distribuir tu tiempo para no atrasarte?</li>
+            <li className="text-lg leading-relaxed">¿Puedes tomar decisiones rápidas cuando dos alternativas parecen correctas?</li>
+            <li className="text-lg leading-relaxed">¿Manejas la ansiedad cuando llevas 50 preguntas y sientes que vas mal?</li>
+          </ul>
+          <p className="text-lg leading-relaxed">
+            Si nunca entrenaste esto, no estarás listo.
+          </p>
+          
+          <h3 className="text-2xl md:text-3xl font-semibold">Por qué esto separa a los que aprueban de los que reprueban:</h3>
+          <p className="text-lg leading-relaxed">
+            Los atletas de élite no solo entrenan la técnica. Entrenan bajo las condiciones exactas de la competencia. Lo mismo aplica para el EUNACOM.
+          </p>
+          <p className="text-lg leading-relaxed">
+            Llegar al examen sin haber hecho simulaciones reales es como correr una maratón sin nunca haber corrido más de 5 kilómetros. Teóricamente sabes cómo hacerlo. Prácticamente, colapsarás.
+          </p>
+          
+          <h3 className="text-2xl md:text-3xl font-semibold">La solución:</h3>
+          <p className="text-lg leading-relaxed">
+            Entrena como competirás: simulaciones idénticas al examen, de forma regular.
+          </p>
+          <p className="text-lg leading-relaxed">
+            Esto significa:
+          </p>
+          <ul className="space-y-3 ml-6 list-disc">
+            <li className="text-lg leading-relaxed">Mismo número de preguntas (180)</li>
+            <li className="text-lg leading-relaxed">Mismo tiempo límite (3 horas)</li>
+            <li className="text-lg leading-relaxed">Mismo formato y nivel de dificultad</li>
+            <li className="text-lg leading-relaxed">Condiciones reales: sin pausas, sin apuntes, cronómetro visible</li>
+          </ul>
+          
+          <div className="bg-muted/50 border-l-4 border-primary p-6 rounded-r-lg">
+            <p className="text-base md:text-lg">
+              <strong>Mi Eunacom</strong> ofrece simulaciones que replican exactamente el EUNACOM real. Esto te permite:
+            </p>
+            <ul className="space-y-2 ml-6 mt-3 list-disc">
+              <li className="text-base md:text-lg">Identificar tus puntos de quiebre (cuándo empiezas a fatigarte mentalmente)</li>
+              <li className="text-base md:text-lg">Mejorar tu velocidad sin sacrificar precisión</li>
+              <li className="text-base md:text-lg">Entrenar tu toma de decisiones bajo presión</li>
+              <li className="text-base md:text-lg">Llegar al examen con confianza absoluta</li>
+            </ul>
+            <p className="text-base md:text-lg mt-4 font-semibold">
+              El día del examen no será tu primera vez bajo presión. Será una repetición más de lo que ya hiciste decenas de veces.
+            </p>
+          </div>
+        </article>
+
+        <article className="space-y-6">
+          <h2 className="text-3xl md:text-4xl">
+            Error #5: Ver la respuesta correcta y seguir adelante (sin aprender realmente)
+          </h2>
+          
+          <h3 className="text-2xl md:text-3xl font-semibold">El dolor real:</h3>
+          <p className="text-lg leading-relaxed">
+            Respondes 50 preguntas. Fallas 15. Ves las respuestas correctas, te frustras ("¡obvio, era esa!"), y sigues adelante.
+          </p>
+          <p className="text-lg leading-relaxed">
+            Dos semanas después: exactamente el mismo tipo de pregunta, formulada diferente. Vuelves a fallar.
+          </p>
+          <p className="text-lg leading-relaxed">
+            ¿Por qué? Porque nunca aprendiste el razonamiento. Solo memorizaste una respuesta.
+          </p>
+          
+          <h3 className="text-2xl md:text-3xl font-semibold">El problema:</h3>
+          <p className="text-lg leading-relaxed">
+            El aprendizaje real no ocurre cuando ves la respuesta correcta. Ocurre cuando entiendes por qué las otras estaban mal.
+          </p>
+          <p className="text-lg leading-relaxed">
+            El EUNACOM es experto en reformular la misma pregunta de 10 formas diferentes. Si solo memorizas respuestas sin comprender el concepto subyacente, reprobarás.
+          </p>
+          <p className="text-lg leading-relaxed">
+            Es como estudiar para un examen de matemáticas memorizando los resultados sin entender cómo llegaste ahí. Cuando cambian los números, estás perdido.
+          </p>
+          
+          <h3 className="text-2xl md:text-3xl font-semibold">Por qué esto determina tu retención a largo plazo:</h3>
+          <p className="text-lg leading-relaxed">
+            Los médicos que aprueban con puntajes altos no tienen mejor memoria. Tienen mejor comprensión.
+          </p>
+          <p className="text-lg leading-relaxed">
+            Cuando fallas una pregunta y solo miras la respuesta correcta:
+          </p>
+          <ul className="space-y-3 ml-6 list-disc">
+            <li className="text-lg leading-relaxed">No entiendes el razonamiento clínico</li>
+            <li className="text-lg leading-relaxed">No identificas el patrón de la pregunta</li>
+            <li className="text-lg leading-relaxed">No aprendes por qué las otras alternativas eran trampas</li>
+            <li className="text-lg leading-relaxed">Volverás a cometer el mismo error</li>
+          </ul>
+          <p className="text-lg leading-relaxed">
+            El resultado: estudias mucho, pero tu retención es mínima. Estás corriendo en una caminadora: mucho esfuerzo, cero progreso.
+          </p>
+          
+          <h3 className="text-2xl md:text-3xl font-semibold">La solución:</h3>
+          <p className="text-lg leading-relaxed">
+            Cada error es una oportunidad de aprendizaje, pero solo si lo aprovechas correctamente.
+          </p>
+          <p className="text-lg leading-relaxed">
+            Necesitas:
+          </p>
+          <ul className="space-y-3 ml-6 list-disc">
+            <li className="text-lg leading-relaxed">Explicación detallada de por qué cada alternativa es correcta o incorrecta</li>
+            <li className="text-lg leading-relaxed">Contexto clínico que refuerza el concepto</li>
+            <li className="text-lg leading-relaxed">Razonamiento paso a paso del diagnóstico o manejo</li>
+            <li className="text-lg leading-relaxed">Referencias a las guías oficiales cuando aplique</li>
+          </ul>
+          
+          <div className="bg-muted/50 border-l-4 border-primary p-6 rounded-r-lg">
+            <p className="text-base md:text-lg">
+              <strong>Mi Eunacom</strong> incluye justificaciones completas en sus más de 5.000 preguntas. No solo sabrás la respuesta correcta, sino que entenderás:
+            </p>
+            <ul className="space-y-2 ml-6 mt-3 list-disc">
+              <li className="text-base md:text-lg">Por qué era la correcta (razonamiento clínico)</li>
+              <li className="text-base md:text-lg">Por qué las otras eran incorrectas (dónde estaba la trampa)</li>
+              <li className="text-base md:text-lg">El concepto general que evalúa la pregunta (para que lo reconozcas en cualquier formulación)</li>
+            </ul>
+            <p className="text-base md:text-lg mt-4 font-semibold">
+              Este enfoque en el aprendizaje profundo, no memorístico, es lo que explica el 98% de ingreso a especialidad de los estudiantes de Mi Eunacom.
+            </p>
+            <p className="text-base md:text-lg mt-4 font-semibold">
+              No acumules respuestas. Acumula comprensión.
+            </p>
+          </div>
         </article>
       </div>
     </section>

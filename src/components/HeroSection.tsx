@@ -6,16 +6,16 @@ export const HeroSection = () => {
       <div className="container mx-auto max-w-7xl">
         <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
           <div className="space-y-6">
-            <Badge>Guía de Matrimonios</Badge>
+            <Badge>Guía de Preparación EUNACOM</Badge>
             <h1 className="text-4xl md:text-5xl lg:text-6xl leading-tight font-normal">
-              5 errores que cometen la mayoría de los novios al hacer su lista de regalos (y cómo evitarlos)
+              Los 5 errores más comunes que te pueden hacer reprobar el Eunacom (y cómo evitarlos)
             </h1>
             
             {/* Image shown after title on mobile, in grid on desktop */}
             <div className="flex justify-center md:hidden my-8">
               <img
                 src={new URL("../assets/hero-engaged-couple.jpg", import.meta.url).href}
-                alt="Pareja de novios felices planificando su matrimonio"
+                alt="Preparación para el examen EUNACOM"
                 className="rounded-3xl shadow-2xl w-full max-w-md object-cover"
                 style={{ boxShadow: 'var(--shadow-soft)' }}
               />
@@ -27,7 +27,7 @@ export const HeroSection = () => {
           <div className="hidden md:flex justify-center">
             <img
               src={new URL("../assets/hero-engaged-couple.jpg", import.meta.url).href}
-              alt="Pareja de novios felices planificando su matrimonio"
+              alt="Preparación para el examen EUNACOM"
               className="rounded-3xl shadow-2xl w-full max-w-md object-cover"
               style={{ boxShadow: 'var(--shadow-soft)' }}
             />
