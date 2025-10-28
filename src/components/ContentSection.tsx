@@ -21,7 +21,6 @@ export const ContentSection = () => {
             Error #1: Estudiar solo de libros y videos sin responder preguntas
           </h2>
           
-          <h3 className="text-2xl md:text-3xl font-semibold">El dolor real:</h3>
           <p className="text-lg leading-relaxed">
             Llevas 4 meses leyendo Harrison. Has visto decenas de horas de clases en YouTube. Tus resúmenes están perfectos, organizados por especialidad, subrayados con colores. Te sientes preparado.
           </p>
@@ -87,7 +86,6 @@ export const ContentSection = () => {
             Error #2: Estudiar sin un plan estructurado (y perderte en el caos)
           </h2>
           
-          <h3 className="text-2xl md:text-3xl font-semibold">El dolor real:</h3>
           <p className="text-lg leading-relaxed">
             Es lunes. Decides estudiar cardiología porque "te sientes débil ahí". El miércoles alguien te dice que pediatría es lo más importante. El viernes entras en pánico porque no has tocado ginecología. El domingo estás paralizado sin saber por dónde seguir.
           </p>
@@ -161,7 +159,6 @@ export const ContentSection = () => {
             Error #3: Estudiar con material desactualizado (y memorizar lo incorrecto)
           </h2>
           
-          <h3 className="text-2xl md:text-3xl font-semibold">El dolor real:</h3>
           <p className="text-lg leading-relaxed">
             Estudias durante meses con los apuntes de tu amigo que aprobó hace 3 años. Memorizas el manejo de hipertensión arterial de un PDF que encontraste online. Llegas al examen confiado.
           </p>
@@ -226,7 +223,6 @@ export const ContentSection = () => {
             Error #4: Llegar al examen sin haber practicado bajo presión real
           </h2>
           
-          <h3 className="text-2xl md:text-3xl font-semibold">El dolor real:</h3>
           <p className="text-lg leading-relaxed">
             Dominas la teoría. Has respondido cientos de preguntas en casa, sin prisa, revisando tus apuntes cuando dudas. Te sientes seguro.
           </p>
@@ -297,7 +293,6 @@ export const ContentSection = () => {
             Error #5: Ver la respuesta correcta y seguir adelante (sin aprender realmente)
           </h2>
           
-          <h3 className="text-2xl md:text-3xl font-semibold">El dolor real:</h3>
           <p className="text-lg leading-relaxed">
             Respondes 50 preguntas. Fallas 15. Ves las respuestas correctas, te frustras ("¡obvio, era esa!"), y sigues adelante.
           </p>
