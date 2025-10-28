@@ -14,15 +14,6 @@ export const HeroSection = () => {
             <p className="text-lg leading-relaxed opacity-80 italic mt-4">
               Por Alejandro Díaz, médico dermatólogo
             </p>
-            <p className="text-lg leading-relaxed mt-4">
-              Cuando vi mi puntaje en la pantalla—95 puntos—no lo podía creer. No porque fuera imposible, sino porque seis meses antes yo era el típico médico que estudiaba "mucho" pero sin dirección. Leía libros enormes, veía clases grabadas, hacía resúmenes hermosos... y mis simulacros no pasaban de 60 puntos.
-            </p>
-            <p className="text-lg leading-relaxed mt-3">
-              Hoy soy residente de dermatología. Y no fue por suerte ni por ser más inteligente que los demás. Fue porque descubrí que preparar el EUNACOM no se trata de estudiar más, sino de estudiar distinto.
-            </p>
-            <p className="text-lg leading-relaxed mt-3 font-semibold">
-              Estos son los 7 trucos que cambiaron todo para mí (y que nadie me enseñó en la universidad):
-            </p>
             
             {/* Image shown after title on mobile, in grid on desktop */}
             <div className="flex justify-center md:hidden mt-5">
