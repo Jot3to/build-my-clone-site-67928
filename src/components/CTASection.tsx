@@ -29,7 +29,7 @@ export const CTASection = () => {
             <img
               src={doctorImage}
               alt="Médico exitoso después de aprobar el EUNACOM"
-              className="rounded-3xl shadow-2xl w-full max-w-sm object-cover"
+              className="rounded-3xl shadow-2xl w-full object-cover aspect-[16/9] md:aspect-[3/4]"
             />
           </div>
         </div>
