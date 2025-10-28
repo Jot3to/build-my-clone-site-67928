@@ -17,7 +17,7 @@ export const HeroSection = () => {
               <img
                 src={heroImage}
                 alt="Estudiante de medicina preparándose para el EUNACOM"
-                className="rounded-2xl shadow-2xl w-full object-cover aspect-[16/10]"
+                className="rounded-2xl shadow-2xl w-full object-cover aspect-[16/9]"
                 style={{ boxShadow: 'var(--shadow-soft)' }}
               />
             </div>
@@ -29,7 +29,7 @@ export const HeroSection = () => {
             <img
               src={heroImage}
               alt="Estudiante de medicina preparándose para el EUNACOM"
-              className="rounded-2xl shadow-2xl w-full object-cover aspect-[3/4]"
+              className="rounded-2xl shadow-2xl w-full object-cover aspect-[5/3]"
               style={{ boxShadow: 'var(--shadow-soft)' }}
             />
           </div>
