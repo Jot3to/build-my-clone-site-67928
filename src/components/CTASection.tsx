@@ -19,22 +19,6 @@ export const CTASection = () => {
             <p className="text-base md:text-lg leading-relaxed opacity-90 font-semibold">
               Tu especialidad te está esperando. La pregunta es: ¿vas a seguir estudiando como siempre, o vas a cambiar tu estrategia hoy?
             </p>
-            
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-4 md:p-6 border border-white/20 mt-8">
-              <h3 className="text-2xl md:text-3xl font-semibold mb-4">
-                Comienza hoy con el método que sí funciona
-              </h3>
-              <p className="text-base md:text-lg font-semibold mb-4">Planes disponibles:</p>
-              <ul className="space-y-2 mb-4">
-                <li className="text-base md:text-lg">• 3 meses: $59.000 CLP</li>
-                <li className="text-base md:text-lg">• 6 meses: $99.000 CLP</li>
-                <li className="text-base md:text-lg">• 12 meses: $149.000 CLP</li>
-              </ul>
-              <p className="text-sm md:text-base opacity-90 mb-4">
-                98% de ingreso a especialidad | +5.000 preguntas actualizadas | Simulaciones reales
-              </p>
-            </div>
-            
             <button 
               className="bg-white text-accent hover:bg-white/90 font-semibold text-base md:text-lg px-6 md:px-8 py-4 md:py-6 w-full rounded-lg transition-colors"
             >
