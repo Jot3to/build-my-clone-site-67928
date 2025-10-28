@@ -12,18 +12,6 @@ export const HeroSection = () => {
               Los 5 errores más comunes que te pueden hacer reprobar el Eunacom (y cómo evitarlos)
             </h1>
             
-            <div className="space-y-3 text-base md:text-lg text-foreground/90">
-              <p>
-                Preparar el EUNACOM es un desafío que marca tu futuro profesional. Miles de médicos se enfrentan cada año a este examen, pero no todos logran el puntaje necesario para ingresar a la especialidad deseada.
-              </p>
-              <p>
-                ¿La razón? No es falta de inteligencia ni de dedicación. Es estudiar de la manera equivocada.
-              </p>
-              <p className="font-medium">
-                Estos son los 5 errores más comunes que separan a quienes aprueban con excelencia de quienes reprueban (y cómo solucionarlos):
-              </p>
-            </div>
-            
             {/* Image shown after title on mobile, in grid on desktop */}
             <div className="flex justify-center md:hidden mt-6">
               <img
