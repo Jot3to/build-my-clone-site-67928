@@ -90,7 +90,7 @@ Empresas acreedoras: ${validatedData.companies}${validatedData.additionalInfo ? 
   };
 
   return (
-    <div className="bg-white rounded-2xl shadow-2xl p-4 md:p-8 w-full max-w-full md:max-w-2xl">
+    <div className="bg-white rounded-2xl shadow-2xl p-3 md:p-8 w-full max-w-full md:max-w-2xl">
       <form onSubmit={handleSubmit} className="space-y-4">
         <div>
           <Input
