@@ -1,9 +1,10 @@
 import { Badge } from "./Badge";
+import { ContactForm } from "./ContactForm";
 import heroImage from "@/assets/hero-medical-student.jpg";
 
 export const HeroSection = () => {
   return (
-    <section className="hero-section py-12 md:py-16 px-6 md:px-12">
+    <section className="hero-section py-12 md:py-16 px-6 md:px-12 relative pb-32 md:pb-48">
       <div className="container mx-auto max-w-6xl">
         <div className="grid md:grid-cols-[1.2fr,1fr] gap-6 md:gap-10 items-center">
           <div className="space-y-4">
@@ -35,6 +36,13 @@ export const HeroSection = () => {
               className="rounded-2xl shadow-2xl w-full object-cover aspect-[5/3]"
               style={{ boxShadow: 'var(--shadow-soft)' }}
             />
+          </div>
+        </div>
+
+        {/* Contact Form - positioned to overflow into next section */}
+        <div className="absolute left-1/2 -translate-x-1/2 bottom-0 translate-y-1/2 z-20 w-full px-6 md:px-12 max-w-6xl">
+          <div className="flex justify-center">
+            <ContactForm />
           </div>
         </div>
       </div>

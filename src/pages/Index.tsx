@@ -9,7 +9,9 @@ const Index = () => {
     <main className="min-h-screen">
       <Header />
       <HeroSection />
-      <ContentSection />
+      <div className="pt-24 md:pt-32">
+        <ContentSection />
+      </div>
       <CTASection />
       <FloatingCTA />
     </main>
