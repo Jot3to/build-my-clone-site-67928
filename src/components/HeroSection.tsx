@@ -1,6 +1,4 @@
-import { Badge } from "./Badge";
 import { ContactForm } from "./ContactForm";
-import heroImage from "@/assets/hero-medical-student.jpg";
 
 export const HeroSection = () => {
   return (
@@ -8,12 +6,16 @@ export const HeroSection = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="grid md:grid-cols-[1.2fr,1fr] gap-6 md:gap-10 items-start">
           <div className="space-y-4">
-            <img
-              src={heroImage}
-              alt="Estudiante de medicina preparándose para el Eunacom"
-              className="rounded-2xl shadow-2xl w-full object-cover aspect-[16/9] mb-4"
-              style={{ boxShadow: 'var(--shadow-soft)' }}
-            />
+            <div className="rounded-2xl shadow-2xl w-full overflow-hidden aspect-[16/9] mb-4" style={{ boxShadow: 'var(--shadow-soft)' }}>
+              <iframe
+                src="https://player.vimeo.com/video/YOUR_VIDEO_ID"
+                className="w-full h-full"
+                frameBorder="0"
+                allow="autoplay; fullscreen; picture-in-picture"
+                allowFullScreen
+                title="Video explicativo"
+              ></iframe>
+            </div>
             <h1 className="text-3xl md:text-4xl lg:text-5xl leading-tight font-normal">
               ¿Quieres saber si estás en DICOM?
             </h1>
