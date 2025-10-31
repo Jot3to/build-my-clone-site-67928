@@ -10,15 +10,21 @@ export const HeroSection = () => {
             {/* Social Proof Module */}
             <div className="flex items-center gap-3 mb-4">
               <div className="flex -space-x-2">
-                <div className="w-10 h-10 rounded-full bg-gradient-to-br from-primary to-accent border-2 border-white shadow-sm flex items-center justify-center text-white font-semibold text-sm">
-                  JM
-                </div>
-                <div className="w-10 h-10 rounded-full bg-gradient-to-br from-secondary to-primary border-2 border-white shadow-sm flex items-center justify-center text-white font-semibold text-sm">
-                  AC
-                </div>
-                <div className="w-10 h-10 rounded-full bg-gradient-to-br from-accent to-secondary border-2 border-white shadow-sm flex items-center justify-center text-white font-semibold text-sm">
-                  LP
-                </div>
+                <img 
+                  src="https://i.pravatar.cc/150?img=33" 
+                  alt="Cliente satisfecho"
+                  className="w-10 h-10 rounded-full border-2 border-white shadow-sm object-cover"
+                />
+                <img 
+                  src="https://i.pravatar.cc/150?img=47" 
+                  alt="Cliente satisfecho"
+                  className="w-10 h-10 rounded-full border-2 border-white shadow-sm object-cover"
+                />
+                <img 
+                  src="https://i.pravatar.cc/150?img=65" 
+                  alt="Cliente satisfecho"
+                  className="w-10 h-10 rounded-full border-2 border-white shadow-sm object-cover"
+                />
               </div>
               <div className="flex flex-col">
                 <div className="flex items-center gap-1">
