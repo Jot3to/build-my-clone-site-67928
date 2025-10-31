@@ -14,13 +14,9 @@ export const HeroSection = () => {
               className="rounded-2xl shadow-2xl w-full object-cover aspect-[16/9] mb-4"
               style={{ boxShadow: 'var(--shadow-soft)' }}
             />
-            <Badge>Historia de Éxito</Badge>
             <h1 className="text-3xl md:text-4xl lg:text-5xl leading-tight font-normal">
               Los 7 trucos que me permitieron sacar 95 puntos en el Eunacom (y que nadie me enseñó)
             </h1>
-            <p className="text-lg leading-relaxed opacity-80 italic mt-4">
-              Por Alejandro Díaz, médico dermatólogo
-            </p>
           </div>
           
           {/* Contact Form on the right */}
