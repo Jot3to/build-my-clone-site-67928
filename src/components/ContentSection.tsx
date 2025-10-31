@@ -1,256 +1,195 @@
-import studyGroupImage from "@/assets/students-studying-group.jpg";
+import { Check, AlertTriangle, Users, GraduationCap, HelpCircle, Shield, Award, Clock, Lock } from "lucide-react";
+import { Button } from "./ui/button";
 
 export const ContentSection = () => {
+  const scrollToForm = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   return (
     <section className="content-section py-16 px-6 md:px-12">
-      <div className="container mx-auto max-w-4xl space-y-12">
-        <article className="space-y-6">
-          <h2 className="text-3xl md:text-4xl">
-            Truco #1: Dejé de leer libros completos y empecé a responder preguntas desde el día uno
-          </h2>
-          
-          <h3 className="text-2xl md:text-3xl font-semibold">La verdad incómoda:</h3>
-          <p className="text-lg leading-relaxed">
-            Durante mis primeros tres meses de preparación, me leí medio Harrison. Me sentía productivo, culto, preparado. Hice mi primer simulacro y saqué 58 puntos. Colapsé.
-          </p>
-          <p className="text-lg leading-relaxed">
-            El problema no era que no supiera. El problema era que sabía en teoría, pero no sabía aplicar bajo presión.
-          </p>
-          
-          <h3 className="text-2xl md:text-3xl font-semibold">Qué hice diferente:</h3>
-          <p className="text-lg leading-relaxed">
-            Un amigo que había aprobado con buen puntaje me recomendó Mi Eunacom. Al principio dudé—"¿otra plataforma de preguntas?"—pero decidí intentarlo. Y fue la mejor decisión que tomé.
-          </p>
-          <p className="text-lg leading-relaxed">
-            Invertí el modelo completamente. En lugar de leer primero y practicar después, empecé a aprender respondiendo preguntas desde el primer día. Mi Eunacom tenía más de 5,000 preguntas organizadas por especialidad, y yo respondía 50-100 diarias. Fallaba muchísimo al principio (obviamente), pero cada error venía con justificaciones detalladas de TODAS las alternativas—no solo la correcta. Eso me obligaba a entender el razonamiento clínico completo.
-          </p>
-          <p className="text-lg leading-relaxed">
-            La diferencia fue brutal: mi cerebro dejó de "reconocer" información y empezó a "recuperarla". En dos meses, mis simulacros pasaron de 58 a 78 puntos. Esa fue la señal de que iba por el camino correcto.
-          </p>
-          <div className="bg-muted/50 border-l-4 border-primary p-6 rounded-r-lg">
-            <p className="text-base md:text-lg font-semibold">
-              Mi consejo: No esperes a "dominar" la teoría para empezar a responder preguntas. Las preguntas SON tu forma de aprender. Y necesitas una plataforma que te entregue justificaciones completas—ahí es donde realmente aprendes.
+      <div className="container mx-auto max-w-4xl space-y-16">
+        
+        {/* Bloque de beneficios con checkmarks */}
+        <div className="bg-muted/30 border-l-4 border-primary p-8 rounded-r-2xl space-y-4">
+          <div className="flex items-start gap-3">
+            <Check className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+            <p className="text-lg leading-relaxed">
+              <strong>Respuesta en menos de 24 horas</strong>
             </p>
           </div>
-        </article>
-
-        <article className="space-y-6">
-          <h2 className="text-3xl md:text-4xl">
-            Truco #2: Respondí exactamente 100 preguntas todos los días (sin excepción)
-          </h2>
-          
-          <h3 className="text-2xl md:text-3xl font-semibold">La verdad incómoda:</h3>
-          <p className="text-lg leading-relaxed">
-            Hay días que no tienes ganas. Hay días que estás cansado. Hay días que piensas "mañana recupero". Pero la preparación del EUNACOM no funciona con intensidad errática. Funciona con constancia obsesiva.
-          </p>
-          
-          <h3 className="text-2xl md:text-3xl font-semibold">Qué hice diferente:</h3>
-          <p className="text-lg leading-relaxed">
-            Me impuse una regla no negociable: 100 preguntas al día. Todos los días. Incluyendo fines de semana, días de guardia, días festivos.
-          </p>
-          <p className="text-lg leading-relaxed">
-            Lo que hizo esto posible fue que Mi Eunacom funciona en cualquier dispositivo. Si tenía poco tiempo, respondía preguntas desde mi celular en el metro camino al hospital. Si llegaba cansado de una guardia, igual abría la app en mi teléfono y cumplía mis 100 preguntas. La plataforma registraba mi progreso diario, lo que me mantenía accountable y motivado.
-          </p>
-          <p className="text-lg leading-relaxed">
-            ¿Por qué 100? Porque en 90 días son 9,000 preguntas. Eso significa que ves y revés los temas clave múltiples veces, entrenas velocidad y consolidas patrones de respuesta. La repetición espaciada no es un concepto bonito: es la diferencia entre recordar algo en el examen o quedarte en blanco.
-          </p>
-          <div className="bg-muted/50 border-l-4 border-primary p-6 rounded-r-lg">
-            <p className="text-base md:text-lg font-semibold">
-              Mi consejo: Elige un número realista para ti (50, 75, 100) y cúmplelo religiosamente. Y usa una herramienta que te permita estudiar desde cualquier lugar—la constancia solo funciona si es conveniente.
+          <div className="flex items-start gap-3">
+            <Check className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+            <p className="text-lg leading-relaxed">
+              <strong>Evaluación 100% gratuita y sin compromiso</strong>
             </p>
           </div>
-        </article>
-
-        <article className="space-y-6">
-          <h2 className="text-3xl md:text-4xl">
-            Truco #3: Dejé de "estudiar en general" y empecé a atacar mis áreas débiles
-          </h2>
-          
-          <h3 className="text-2xl md:text-3xl font-semibold">La verdad incómoda:</h3>
-          <p className="text-lg leading-relaxed">
-            Es más cómodo estudiar lo que ya sabes. Yo amaba cardiología, así que estudiaba cardiología todo el tiempo. ¿Ginecología? La evitaba. ¿Resultado? Mis simulacros mostraban 90% en cardio y 40% en gineco. Eso no te da 95 puntos.
-          </p>
-          
-          <h3 className="text-2xl md:text-3xl font-semibold">Qué hice diferente:</h3>
-          <p className="text-lg leading-relaxed">
-            Aquí es donde Mi Eunacom se convirtió en mi coach personal. La plataforma tiene un sistema de análisis que rastrea tu rendimiento por especialidad en tiempo real. Cada semana entraba a mi dashboard y veía exactamente en qué áreas estaba débil: porcentajes de acierto por especialidad, temas específicos donde fallaba más, incluso tipos de preguntas que me costaban.
-          </p>
-          <p className="text-lg leading-relaxed">
-            Me obligué a atacar primero lo que el sistema me mostraba en rojo. Si ginecología estaba en 40%, esa semana hacía 60 de mis 100 preguntas diarias en gineco. Si neurología estaba floja, le metía 50 preguntas al día hasta subirla.
-          </p>
-          <p className="text-lg leading-relaxed">
-            Fue incómodo. Frustrante. Pero funcionó. En un mes, mis áreas débiles subieron de 40-50% a 75-80%. Y eso fue lo que me dio el puntaje final: no tener agujeros negros.
-          </p>
-          <div className="bg-muted/50 border-l-4 border-primary p-6 rounded-r-lg">
-            <p className="text-base md:text-lg font-semibold">
-              Mi consejo: No estudies lo que te gusta. Estudia lo que más necesitas. Pero para eso necesitas métricas claras que te muestren exactamente dónde estás débil—sin eso, estás volando ciego.
+          <div className="flex items-start gap-3">
+            <Check className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+            <p className="text-lg leading-relaxed">
+              <strong>Atención de abogados especialistas en prescripción de deudas</strong>
             </p>
           </div>
-        </article>
-
-        <article className="space-y-6">
-          <h2 className="text-3xl md:text-4xl">
-            Truco #4: Analicé cada error como si fuera un caso clínico real
-          </h2>
-          
-          <h3 className="text-2xl md:text-3xl font-semibold">La verdad incómoda:</h3>
-          <p className="text-lg leading-relaxed">
-            Al principio, cuando fallaba una pregunta, veía la respuesta correcta y seguía. "Ah, era esa, ok". Dos semanas después: misma pregunta, diferente formulación. Volvía a fallar.
-          </p>
-          
-          <h3 className="text-2xl md:text-3xl font-semibold">Qué hice diferente:</h3>
-          <p className="text-lg leading-relaxed">
-            Cambié mi relación con los errores gracias a cómo Mi Eunacom estructura sus respuestas. Cada vez que fallaba, no solo veía la respuesta correcta—la plataforma me mostraba justificaciones detalladas de las cuatro alternativas: por qué la correcta era correcta, y por qué cada una de las incorrectas era una trampa.
-          </p>
-          <p className="text-lg leading-relaxed">
-            Convertí cada error en una mini-clase privada. Cuando fallaba una pregunta sobre neumonía comunitaria, leía las cuatro justificaciones, luego iba al ebook del MINSAL que Mi Eunacom incluye y profundizaba en el tema completo. Y aquí está el truco: los errores son más valiosos que los aciertos. Cuando aciertas, solo confirmas lo que ya sabes. Cuando fallas y analizas en profundidad, expandes tu conocimiento real.
-          </p>
-          <p className="text-lg leading-relaxed">
-            Mi Eunacom también tiene una función que me permitía marcar preguntas para volver a ellas después. Las preguntas que fallaba las marcaba y las revisaba una semana después para confirmar que realmente había aprendido el concepto.
-          </p>
-          <div className="bg-muted/50 border-l-4 border-primary p-6 rounded-r-lg">
-            <p className="text-base md:text-lg font-semibold">
-              Mi consejo: Nunca desperdicies un error. Cada uno es una oportunidad de oro para aprender algo que el examen te volverá a preguntar de otra forma. Pero necesitas justificaciones completas—no solo saber cuál era la correcta, sino entender por qué.
-            </p>
-          </div>
-        </article>
-
-        <div className="my-12 flex justify-center">
-          <img
-            src={studyGroupImage}
-            alt="Estudiantes de medicina preparando el Eunacom en grupo"
-            className="rounded-3xl shadow-2xl w-full max-w-2xl object-cover"
-            style={{ boxShadow: 'var(--shadow-soft)' }}
-          />
         </div>
 
-        <article className="space-y-6">
-          <h2 className="text-3xl md:text-4xl">
-            Truco #5: Simulé el examen completo cada dos semanas (cronómetro incluido)
-          </h2>
+        {/* Bloque de Urgencia/FOMO */}
+        <article className="space-y-6 bg-destructive/10 border-2 border-destructive/30 p-8 rounded-2xl">
+          <div className="flex items-start gap-4">
+            <AlertTriangle className="w-8 h-8 text-destructive flex-shrink-0 mt-1" />
+            <h2 className="text-2xl md:text-3xl font-semibold">
+              ¿Sabías que muchas personas siguen pagando deudas que ya prescribieron?
+            </h2>
+          </div>
           
-          <h3 className="text-2xl md:text-3xl font-semibold">La verdad incómoda:</h3>
           <p className="text-lg leading-relaxed">
-            Puedes dominar todas las preguntas en tu casa, con tu café, sin prisa. Y aún así colapsar el día del examen por la presión, el tiempo, la ansiedad.
+            Si tu deuda tiene más de 3 años y <strong>NO has sido demandado</strong>, podrías tener derecho a que se declare prescrita.
           </p>
           
-          <h3 className="text-2xl md:text-3xl font-semibold">Qué hice diferente:</h3>
-          <p className="text-lg leading-relaxed">
-            Cada dos semanas, usaba las simulaciones de Mi Eunacom que replican exactamente el EUNACOM real: 180 preguntas, 3 horas, cronómetro corriendo, sin pausas. Me encerraba en mi pieza, ponía el celular en modo avión, y lo hacía tal cual el examen real.
-          </p>
-          <p className="text-lg leading-relaxed">
-            Las primeras simulaciones fueron brutales. Me quedaba sin tiempo. Me bloqueaba en preguntas difíciles. Sentía la ansiedad subir. Pero eso era exactamente el punto: entrenar el músculo de rendir bajo presión.
-          </p>
-          <p className="text-lg leading-relaxed">
-            Lo genial de las simulaciones de Mi Eunacom es que al terminar, no solo te dan el puntaje—te muestran un análisis completo: en qué especialidades fallaste más, cuánto tiempo promedio te demoraste por pregunta, qué tipo de preguntas te costaron más. Eso me permitía ajustar mi estrategia para la siguiente simulación.
-          </p>
-          <p className="text-lg leading-relaxed">
-            Para mi quinta simulación, ya sabía exactamente cuánto tiempo dedicarle a cada pregunta, cuándo saltar una difícil y volver después, cómo manejar los nervios. El día del examen real no fue mi primera vez bajo presión. Fue la simulación número 12.
-          </p>
-          <div className="bg-muted/50 border-l-4 border-primary p-6 rounded-r-lg">
-            <p className="text-base md:text-lg font-semibold">
-              Mi consejo: El examen no solo evalúa qué sabes, sino cómo funcionas bajo estrés. Entrena eso también con simulaciones que repliquen exactamente las condiciones reales.
+          <div className="bg-background/80 border-l-4 border-destructive p-6 rounded-r-lg">
+            <p className="text-lg leading-relaxed font-semibold">
+              Pero ATENCIÓN: Si reconoces la deuda o haces un pago parcial, ¡interrumpes la prescripción y pierdes este beneficio!
             </p>
           </div>
         </article>
 
-        <article className="space-y-6">
-          <h2 className="text-3xl md:text-4xl">
-            Truco #6: Usé flashcards para los detalles que siempre olvidaba
-          </h2>
+        {/* Casos de Éxito / Prueba Social */}
+        <article className="space-y-8">
+          <div className="flex items-center gap-3">
+            <Users className="w-8 h-8 text-primary" />
+            <h2 className="text-3xl md:text-4xl">Casos resueltos</h2>
+          </div>
           
-          <h3 className="text-2xl md:text-3xl font-semibold">La verdad incómoda:</h3>
-          <p className="text-lg leading-relaxed">
-            Hay ciertos detalles—dosis específicas, criterios diagnósticos, valores de laboratorio—que tu cerebro simplemente no retiene con una sola lectura. Los ves, los entiendes, y a la semana los olvidaste.
-          </p>
-          
-          <h3 className="text-2xl md:text-3xl font-semibold">Qué hice diferente:</h3>
-          <p className="text-lg leading-relaxed">
-            Mi Eunacom tiene una función de flashcards personalizables que salvó mi vida. Cada vez que fallaba una pregunta por un detalle específico (una dosis, un criterio, un valor), creaba una flashcard directamente desde la plataforma.
-          </p>
-          <p className="text-lg leading-relaxed">
-            Revisaba esas tarjetas 10 minutos antes de dormir todos los días. La plataforma usa repetición espaciada: te muestra más frecuentemente las flashcards que más fallas, y menos las que ya dominas. No pierdes tiempo revisando lo que ya sabes.
-          </p>
-          <p className="text-lg leading-relaxed">
-            Suena simple, casi tonto. Pero funciona. La repetición espaciada hace que tu cerebro categorice esa información como "importante" y la consolide en memoria a largo plazo. Al final, tenía más de 200 flashcards con los detalles clave que el EUNACOM ama preguntar.
-          </p>
-          <div className="bg-muted/50 border-l-4 border-primary p-6 rounded-r-lg">
-            <p className="text-base md:text-lg font-semibold">
-              Mi consejo: No intentes memorizar todo. Pero los detalles clave (criterios de Rome, escalas de gravedad, dosis de emergencia), métetelos con flashcards que usen repetición espaciada—tu cerebro te lo agradecerá.
-            </p>
+          <div className="grid gap-6">
+            <div className="bg-muted/50 border-l-4 border-primary p-6 rounded-r-2xl space-y-3">
+              <p className="text-lg leading-relaxed italic">
+                "Tenía una deuda de $3.500.000 con Ripley desde 2018. Gracias a Adiós Deudas, se declaró prescrita y salí de Dicom"
+              </p>
+              <p className="text-sm opacity-70 font-medium">— María P., Santiago</p>
+            </div>
+            
+            <div className="bg-muted/50 border-l-4 border-primary p-6 rounded-r-2xl space-y-3">
+              <p className="text-lg leading-relaxed italic">
+                "Debía $1.800.000 al Banco Falabella. Nunca fui demandado y después de 5 años, logramos que prescribiera"
+              </p>
+              <p className="text-sm opacity-70 font-medium">— Carlos R., Concepción</p>
+            </div>
+            
+            <div className="bg-muted/50 border-l-4 border-primary p-6 rounded-r-2xl space-y-3">
+              <p className="text-lg leading-relaxed italic">
+                "Pensé que nunca saldría de Dicom. Después del análisis gratuito, descubrí que mi deuda había prescrito hace 2 años"
+              </p>
+              <p className="text-sm opacity-70 font-medium">— Andrés T., Valparaíso</p>
+            </div>
           </div>
         </article>
 
+        {/* Sección Educativa */}
         <article className="space-y-6">
-          <h2 className="text-3xl md:text-4xl">
-            Truco #7: Busqué apoyo en la comunidad y las masterclass
-          </h2>
-          
-          <h3 className="text-2xl md:text-3xl font-semibold">La verdad incómoda:</h3>
-          <p className="text-lg leading-relaxed">
-            Preparar el EUNACOM es solitario. Hay días que dudas de ti mismo. Días que sientes que no llegarás. Días que quieres tirar todo por la borda.
-          </p>
-          
-          <h3 className="text-2xl md:text-3xl font-semibold">Qué hice diferente:</h3>
-          <p className="text-lg leading-relaxed">
-            Una de las cosas que más valoré de Mi Eunacom fueron las masterclass mensuales en vivo con médicos especialistas. Cada mes cubrían temas de alto rendimiento en el examen, resolvían dudas en vivo, y compartían tips de última hora. Esas clases me mantenían actualizado y motivado.
-          </p>
-          <p className="text-lg leading-relaxed">
-            Además, encontré una comunidad de médicos que estaban preparando el EUNACOM con la misma plataforma. Compartíamos dudas en los comentarios de las preguntas, celebrábamos avances, y nos empujábamos en los días malos. Ver que otros también estaban batallando—y superando—los mismos obstáculos que yo, fue la diferencia entre rendirse y seguir adelante.
-          </p>
-          <p className="text-lg leading-relaxed">
-            Tener gente que entiende exactamente lo que estás pasando—que celebra cuando subes de 70 a 75 en un simulacro, que te manda ánimos cuando caes a 65—no es un lujo. Es una necesidad.
-          </p>
-          <div className="bg-muted/50 border-l-4 border-primary p-6 rounded-r-lg">
-            <p className="text-base md:text-lg font-semibold">
-              Mi consejo: No lo hagas solo. Busca una plataforma que no solo te entregue contenido, sino que te conecte con otros médicos en tu misma situación y te dé acceso a expertos que puedan guiarte.
-            </p>
+          <div className="flex items-center gap-3">
+            <GraduationCap className="w-8 h-8 text-primary" />
+            <h2 className="text-3xl md:text-4xl">¿Cómo funciona la prescripción de deudas?</h2>
           </div>
-        </article>
-
-        <article className="space-y-6">
-          <h2 className="text-3xl md:text-4xl">
-            Lo que nadie te cuenta sobre sacar 95 puntos
-          </h2>
           
           <p className="text-lg leading-relaxed">
-            Cuando la gente ve mi puntaje, asume que soy un genio o que estudié 16 horas al día. Ninguna de las dos es cierta.
+            La ley chilena establece que las deudas prescriben si:
           </p>
           
-          <p className="text-lg leading-relaxed">
-            Saqué 95 puntos porque:
-          </p>
-          
-          <ul className="space-y-3 text-lg list-disc pl-6">
-            <li>Aprendí respondiendo preguntas con Mi Eunacom, no leyendo teoría pasivamente</li>
-            <li>Fui obsesivamente constante (100 preguntas diarias desde cualquier dispositivo)</li>
-            <li>Usé el análisis de Mi Eunacom para atacar mis áreas débiles con precisión</li>
-            <li>Convertí cada error en una oportunidad de aprendizaje profundo gracias a las justificaciones completas</li>
-            <li>Entrené bajo presión con las simulaciones reales de la plataforma</li>
-            <li>Usé las flashcards personalizables para detalles clave</li>
-            <li>Me apoyé en las masterclass y la comunidad para mantenerme motivado</li>
+          <ul className="space-y-4 text-lg list-none pl-0">
+            <li className="flex items-start gap-3">
+              <Check className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+              <span>Han pasado <strong>3 años desde el último pago</strong> (prescripción ejecutiva)</span>
+            </li>
+            <li className="flex items-start gap-3">
+              <Check className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+              <span>Han pasado <strong>5 años desde que se contrajo la deuda</strong> (prescripción ordinaria)</span>
+            </li>
+            <li className="flex items-start gap-3">
+              <Check className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+              <span>El acreedor <strong>NO te ha demandado judicialmente</strong></span>
+            </li>
           </ul>
           
-          <p className="text-lg leading-relaxed mt-6">
-            No hay magia. No hay genialidad. Solo método, constancia y la herramienta correcta.
-          </p>
-          
-          <p className="text-lg leading-relaxed">
-            Hoy soy residente de dermatología. No porque tuve suerte, sino porque encontré Mi Eunacom y cambié completamente la forma en que me preparé. El 98% de los estudiantes que usan la plataforma ingresa a la especialidad deseada—no es casualidad.
-          </p>
-          
-          <p className="text-lg leading-relaxed">
-            Y si yo pude, tú también puedes.
-          </p>
-          
-          <p className="text-lg leading-relaxed font-semibold">
-            La pregunta es: ¿vas a seguir estudiando como todos (y obtener resultados promedio), o vas a estudiar como los que sacan 95 puntos?
-          </p>
-          
-          <p className="text-lg leading-relaxed font-semibold">
-            Tu especialidad te está esperando.
-          </p>
+          <div className="bg-primary/10 border-l-4 border-primary p-6 rounded-r-lg mt-6">
+            <p className="text-lg leading-relaxed">
+              Si cumples estos requisitos, un juez puede declarar tu deuda <strong>PRESCRITA</strong>, lo que significa que ya no tienes la obligación legal de pagarla.
+            </p>
+          </div>
         </article>
+
+        {/* FAQ Corto */}
+        <article className="space-y-6">
+          <div className="flex items-center gap-3">
+            <HelpCircle className="w-8 h-8 text-primary" />
+            <h2 className="text-3xl md:text-4xl">Preguntas frecuentes</h2>
+          </div>
+          
+          <div className="space-y-6">
+            <div className="space-y-3">
+              <h3 className="text-xl font-semibold">¿Es legal que mi deuda prescriba?</h3>
+              <p className="text-lg leading-relaxed opacity-90">
+                Sí, es un derecho establecido en el Código Civil chileno. No es evasión, es un derecho que te protege como consumidor.
+              </p>
+            </div>
+            
+            <div className="space-y-3">
+              <h3 className="text-xl font-semibold">¿Salgo automáticamente de Dicom?</h3>
+              <p className="text-lg leading-relaxed opacity-90">
+                No es automático, pero al declararse la prescripción, puedes solicitar tu eliminación del boletín comercial.
+              </p>
+            </div>
+            
+            <div className="space-y-3">
+              <h3 className="text-xl font-semibold">¿Cuánto cobran por el análisis?</h3>
+              <p className="text-lg leading-relaxed opacity-90">
+                El análisis inicial es <strong>GRATUITO</strong>. Solo cobramos si decidimos llevar tu caso y lo hacemos con honorarios accesibles.
+              </p>
+            </div>
+          </div>
+        </article>
+
+        {/* Segundo CTA */}
+        <div className="bg-gradient-to-br from-primary/20 to-primary/5 border-2 border-primary/30 p-8 md:p-12 rounded-2xl text-center space-y-6">
+          <div className="flex items-center justify-center gap-2 text-sm opacity-80">
+            <Lock className="w-4 h-4" />
+            <span>Tu información está protegida y es confidencial</span>
+          </div>
+          
+          <Button 
+            size="lg" 
+            className="text-lg px-8 py-6 h-auto"
+            onClick={scrollToForm}
+          >
+            Quiero saber si mi deuda prescribió
+          </Button>
+          
+          <p className="text-base opacity-80">
+            O escríbenos directo por WhatsApp: <strong>+56 9 XXXX XXXX</strong>
+          </p>
+        </div>
+
+        {/* Badges de Confianza */}
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 pt-8 border-t">
+          <div className="flex flex-col items-center text-center space-y-2">
+            <Shield className="w-10 h-10 text-primary" />
+            <p className="text-sm font-medium">Abogados certificados</p>
+          </div>
+          
+          <div className="flex flex-col items-center text-center space-y-2">
+            <Award className="w-10 h-10 text-primary" />
+            <p className="text-sm font-medium">+500 casos resueltos</p>
+          </div>
+          
+          <div className="flex flex-col items-center text-center space-y-2">
+            <Users className="w-10 h-10 text-primary" />
+            <p className="text-sm font-medium">Atención personalizada</p>
+          </div>
+          
+          <div className="flex flex-col items-center text-center space-y-2">
+            <Clock className="w-10 h-10 text-primary" />
+            <p className="text-sm font-medium">Sin letra chica</p>
+          </div>
+        </div>
+
       </div>
     </section>
   );
