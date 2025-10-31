@@ -40,10 +40,8 @@ export const HeroSection = () => {
         </div>
 
         {/* Contact Form - positioned to overflow into next section */}
-        <div className="absolute left-1/2 -translate-x-1/2 bottom-0 translate-y-1/2 z-20 w-full px-6 md:px-12 max-w-6xl">
-          <div className="flex justify-center">
-            <ContactForm />
-          </div>
+        <div className="absolute left-0 md:left-0 bottom-0 translate-y-1/2 z-20 px-6 md:px-12">
+          <ContactForm />
         </div>
       </div>
     </section>
