@@ -17,13 +17,13 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 210 29% 24%;
 
-    --primary: 0 71% 51%;
+    --primary: 210 29% 24%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 29% 24%;
+    --secondary: 210 20% 35%;
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 0 0% 95%;
+    --muted: 210 15% 95%;
     --muted-foreground: 210 15% 45%;
 
     --accent: 0 71% 51%;
@@ -34,18 +34,18 @@ All colors MUST be HSL.
 
     --border: 210 15% 90%;
     --input: 210 15% 90%;
-    --ring: 0 71% 51%;
+    --ring: 210 29% 24%;
 
     --radius: 1rem;
     
-    --hero-bg: 0 0% 98%;
+    --hero-bg: 210 30% 97%;
     --content-bg: 0 0% 100%;
-    --cta-bg: linear-gradient(135deg, hsl(0 71% 51%), hsl(0 65% 45%));
+    --cta-bg: linear-gradient(135deg, hsl(210 29% 24%), hsl(210 25% 32%));
     
-    --gradient-primary: linear-gradient(135deg, hsl(0 71% 51%), hsl(0 65% 45%));
-    --gradient-secondary: linear-gradient(135deg, hsl(210 29% 24%), hsl(210 25% 30%));
-    --gradient-accent: linear-gradient(135deg, hsl(0 71% 51%), hsl(210 29% 24%));
-    --shadow-soft: 0 10px 40px -10px hsl(0 71% 51% / 0.2);
+    --gradient-primary: linear-gradient(135deg, hsl(210 29% 24%), hsl(210 25% 32%));
+    --gradient-secondary: linear-gradient(135deg, hsl(210 20% 35%), hsl(210 25% 40%));
+    --gradient-accent: linear-gradient(135deg, hsl(210 29% 24%), hsl(0 71% 51%));
+    --shadow-soft: 0 10px 40px -10px hsl(210 29% 24% / 0.2);
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
     --sidebar-background: 0 0% 98%;
@@ -75,10 +75,10 @@ All colors MUST be HSL.
     --popover: 210 20% 12%;
     --popover-foreground: 0 0% 95%;
 
-    --primary: 0 71% 55%;
+    --primary: 210 25% 40%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 29% 30%;
+    --secondary: 210 20% 45%;
     --secondary-foreground: 0 0% 100%;
 
     --muted: 210 15% 20%;
@@ -92,11 +92,11 @@ All colors MUST be HSL.
 
     --border: 210 15% 20%;
     --input: 210 15% 20%;
-    --ring: 0 71% 55%;
+    --ring: 210 25% 40%;
     
     --hero-bg: 210 20% 15%;
     --content-bg: 210 20% 12%;
-    --cta-bg: linear-gradient(135deg, hsl(0 71% 45%), hsl(0 65% 40%));
+    --cta-bg: linear-gradient(135deg, hsl(210 25% 30%), hsl(210 20% 35%));
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
