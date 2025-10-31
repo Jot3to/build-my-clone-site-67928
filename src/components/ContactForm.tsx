@@ -9,7 +9,10 @@ const contactSchema = z.object({
   name: z.string().trim().min(1, { message: "El nombre es requerido" }).max(100, { message: "El nombre debe tener menos de 100 caracteres" }),
   email: z.string().trim().email({ message: "Email inválido" }).max(255, { message: "El email debe tener menos de 255 caracteres" }),
   phone: z.string().trim().min(1, { message: "El teléfono es requerido" }).max(20, { message: "El teléfono debe tener menos de 20 caracteres" }),
-  message: z.string().trim().min(1, { message: "El mensaje es requerido" }).max(1000, { message: "El mensaje debe tener menos de 1000 caracteres" })
+  debtAmount: z.string().trim().min(1, { message: "El monto de la deuda es requerido" }).max(50, { message: "El monto debe tener menos de 50 caracteres" }),
+  debtTime: z.string().trim().min(1, { message: "Este campo es requerido" }).max(100, { message: "Debe tener menos de 100 caracteres" }),
+  companies: z.string().trim().min(1, { message: "Este campo es requerido" }).max(500, { message: "Debe tener menos de 500 caracteres" }),
+  additionalInfo: z.string().trim().max(1000, { message: "Debe tener menos de 1000 caracteres" }).optional()
 });
 
 type ContactFormData = z.infer<typeof contactSchema>;
@@ -20,7 +23,10 @@ export const ContactForm = () => {
     name: "",
     email: "",
     phone: "",
-    message: ""
+    debtAmount: "",
+    debtTime: "",
+    companies: "",
+    additionalInfo: ""
   });
   const [errors, setErrors] = useState<Partial<Record<keyof ContactFormData, string>>>({});
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -44,11 +50,13 @@ export const ContactForm = () => {
       const validatedData = contactSchema.parse(formData);
 
       // Create WhatsApp message with proper encoding
-      const message = `Nuevo contacto desde Mi Eunacom:
+      const message = `Nueva consulta DICOM:
 Nombre: ${validatedData.name}
 Email: ${validatedData.email}
 Teléfono: ${validatedData.phone}
-Mensaje: ${validatedData.message}`;
+Monto de deuda: ${validatedData.debtAmount}
+Tiempo con deuda: ${validatedData.debtTime}
+Empresas acreedoras: ${validatedData.companies}${validatedData.additionalInfo ? `\nInformación adicional: ${validatedData.additionalInfo}` : ''}`;
 
       const whatsappUrl = `https://wa.me/56912345678?text=${encodeURIComponent(message)}`;
       window.open(whatsappUrl, '_blank');
@@ -59,7 +67,7 @@ Mensaje: ${validatedData.message}`;
       });
 
       // Reset form
-      setFormData({ name: "", email: "", phone: "", message: "" });
+      setFormData({ name: "", email: "", phone: "", debtAmount: "", debtTime: "", companies: "", additionalInfo: "" });
     } catch (error) {
       if (error instanceof z.ZodError) {
         const fieldErrors: Partial<Record<keyof ContactFormData, string>> = {};
@@ -83,16 +91,12 @@ Mensaje: ${validatedData.message}`;
 
   return (
     <div className="bg-white rounded-2xl shadow-2xl p-6 md:p-8 w-full max-w-2xl">
-      <p className="text-muted-foreground mb-6">
-        Déjanos tus datos y te ayudaremos a comenzar tu preparación
-      </p>
-      
       <form onSubmit={handleSubmit} className="space-y-4">
         <div>
           <Input
             type="text"
             name="name"
-            placeholder="Tu nombre completo"
+            placeholder="Nombre"
             value={formData.name}
             onChange={handleChange}
             className={errors.name ? "border-destructive" : ""}
@@ -107,7 +111,7 @@ Mensaje: ${validatedData.message}`;
           <Input
             type="email"
             name="email"
-            placeholder="Tu email"
+            placeholder="Email"
             value={formData.email}
             onChange={handleChange}
             className={errors.email ? "border-destructive" : ""}
@@ -122,7 +126,7 @@ Mensaje: ${validatedData.message}`;
           <Input
             type="tel"
             name="phone"
-            placeholder="Tu teléfono"
+            placeholder="Teléfono"
             value={formData.phone}
             onChange={handleChange}
             className={errors.phone ? "border-destructive" : ""}
@@ -134,17 +138,62 @@ Mensaje: ${validatedData.message}`;
         </div>
 
         <div>
-          <Textarea
-            name="message"
-            placeholder="¿En qué podemos ayudarte?"
-            value={formData.message}
+          <Input
+            type="text"
+            name="debtAmount"
+            placeholder="Monto de tu deuda"
+            value={formData.debtAmount}
             onChange={handleChange}
-            className={errors.message ? "border-destructive" : ""}
-            rows={4}
+            className={errors.debtAmount ? "border-destructive" : ""}
+            maxLength={50}
+          />
+          {errors.debtAmount && (
+            <p className="text-destructive text-sm mt-1">{errors.debtAmount}</p>
+          )}
+        </div>
+
+        <div>
+          <Input
+            type="text"
+            name="debtTime"
+            placeholder="¿Hace cuánto tienes la deuda?"
+            value={formData.debtTime}
+            onChange={handleChange}
+            className={errors.debtTime ? "border-destructive" : ""}
+            maxLength={100}
+          />
+          {errors.debtTime && (
+            <p className="text-destructive text-sm mt-1">{errors.debtTime}</p>
+          )}
+        </div>
+
+        <div>
+          <Textarea
+            name="companies"
+            placeholder="¿A qué empresas les debes?"
+            value={formData.companies}
+            onChange={handleChange}
+            className={errors.companies ? "border-destructive" : ""}
+            rows={3}
+            maxLength={500}
+          />
+          {errors.companies && (
+            <p className="text-destructive text-sm mt-1">{errors.companies}</p>
+          )}
+        </div>
+
+        <div>
+          <Textarea
+            name="additionalInfo"
+            placeholder="¿Quieres agregar algo más? (opcional)"
+            value={formData.additionalInfo}
+            onChange={handleChange}
+            className={errors.additionalInfo ? "border-destructive" : ""}
+            rows={3}
             maxLength={1000}
           />
-          {errors.message && (
-            <p className="text-destructive text-sm mt-1">{errors.message}</p>
+          {errors.additionalInfo && (
+            <p className="text-destructive text-sm mt-1">{errors.additionalInfo}</p>
           )}
         </div>
 
@@ -153,7 +202,7 @@ Mensaje: ${validatedData.message}`;
           className="w-full bg-primary hover:bg-primary/90 text-white font-semibold py-6 text-lg"
           disabled={isSubmitting}
         >
-          {isSubmitting ? "Enviando..." : "Enviar mensaje"}
+          {isSubmitting ? "Enviando..." : "Enviar consulta"}
         </Button>
       </form>
     </div>
