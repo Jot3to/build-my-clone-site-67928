@@ -1,12 +1,11 @@
 import { Badge } from "./Badge";
 import { ContactForm } from "./ContactForm";
-import heroImage from "@/assets/hero-medical-student.jpg";
 
 export const HeroSection = () => {
   return (
-    <section className="hero-section py-12 md:py-16 px-6 md:px-12 relative pb-32 md:pb-48">
+    <section className="hero-section py-12 md:py-16 px-6 md:px-12">
       <div className="container mx-auto max-w-6xl">
-        <div className="grid md:grid-cols-[1.2fr,1fr] gap-6 md:gap-10 items-center">
+        <div className="grid md:grid-cols-[1.2fr,1fr] gap-6 md:gap-10 items-start">
           <div className="space-y-4">
             <Badge>Historia de Éxito</Badge>
             <h1 className="text-3xl md:text-4xl lg:text-5xl leading-tight font-normal">
@@ -15,33 +14,12 @@ export const HeroSection = () => {
             <p className="text-lg leading-relaxed opacity-80 italic mt-4">
               Por Alejandro Díaz, médico dermatólogo
             </p>
-            
-            {/* Image shown after title on mobile, in grid on desktop */}
-            <div className="flex justify-center md:hidden mt-5">
-              <img
-                src={heroImage}
-                alt="Estudiante de medicina preparándose para el Eunacom"
-                className="rounded-2xl shadow-2xl w-full object-cover aspect-[16/9]"
-                style={{ boxShadow: 'var(--shadow-soft)' }}
-              />
-            </div>
-            
           </div>
           
-          {/* Image hidden on mobile, shown in grid on desktop */}
-          <div className="hidden md:flex justify-center items-center">
-            <img
-              src={heroImage}
-              alt="Estudiante de medicina preparándose para el Eunacom"
-              className="rounded-2xl shadow-2xl w-full object-cover aspect-[5/3]"
-              style={{ boxShadow: 'var(--shadow-soft)' }}
-            />
+          {/* Contact Form on the right */}
+          <div className="flex justify-center items-start">
+            <ContactForm />
           </div>
-        </div>
-
-        {/* Contact Form - positioned to overflow into next section */}
-        <div className="absolute left-0 md:left-0 bottom-0 translate-y-1/2 z-20 px-6 md:px-12">
-          <ContactForm />
         </div>
       </div>
     </section>
