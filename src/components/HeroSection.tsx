@@ -8,10 +8,10 @@ export const HeroSection = () => {
           <div className="space-y-4">
             <div className="rounded-2xl shadow-2xl w-full overflow-hidden aspect-[16/9] mb-4" style={{ boxShadow: 'var(--shadow-soft)' }}>
               <iframe
-                src="https://player.vimeo.com/video/YOUR_VIDEO_ID"
+                src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
                 className="w-full h-full"
                 frameBorder="0"
-                allow="autoplay; fullscreen; picture-in-picture"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
                 title="Video explicativo"
               ></iframe>
