@@ -48,7 +48,7 @@ export const HeroSection = () => {
                 title="Video explicativo"
               ></iframe>
             </div>
-            <h1 className="text-3xl md:text-4xl lg:text-5xl leading-tight font-normal">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl leading-tight font-bold">
               ¿Quieres saber si estás en DICOM?
             </h1>
             <p className="text-lg leading-relaxed opacity-80">
