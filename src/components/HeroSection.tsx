@@ -15,7 +15,7 @@ export const HeroSection = () => {
               style={{ boxShadow: 'var(--shadow-soft)' }}
             />
             <h1 className="text-3xl md:text-4xl lg:text-5xl leading-tight font-normal">
-              Los 7 trucos que me permitieron sacar 95 puntos en el Eunacom (y que nadie me enseñó)
+              ¿Quieres saber si estás en DICOM?
             </h1>
           </div>
           
