@@ -3,7 +3,7 @@ import { Star } from "lucide-react";
 
 export const HeroSection = () => {
   return (
-    <section className="hero-section py-12 md:py-16 px-3 md:px-12">
+    <section className="hero-section py-12 md:py-16 px-2 md:px-12">
       <div className="container mx-auto max-w-6xl">
         <div className="grid md:grid-cols-[1.2fr,1fr] gap-6 md:gap-10 items-start">
           <div className="space-y-4">
