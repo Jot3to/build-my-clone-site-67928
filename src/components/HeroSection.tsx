@@ -17,6 +17,9 @@ export const HeroSection = () => {
             <h1 className="text-3xl md:text-4xl lg:text-5xl leading-tight font-normal">
               ¿Quieres saber si estás en DICOM?
             </h1>
+            <p className="text-lg leading-relaxed opacity-80">
+              Responde la encuesta y descúbrelo en menos de 2 minutos
+            </p>
           </div>
           
           {/* Contact Form on the right */}
