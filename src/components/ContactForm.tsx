@@ -83,9 +83,6 @@ Mensaje: ${validatedData.message}`;
 
   return (
     <div className="bg-white rounded-2xl shadow-2xl p-6 md:p-8 w-full max-w-2xl">
-      <h3 className="text-2xl font-semibold text-foreground mb-2">
-        📩 Contáctanos
-      </h3>
       <p className="text-muted-foreground mb-6">
         Déjanos tus datos y te ayudaremos a comenzar tu preparación
       </p>
