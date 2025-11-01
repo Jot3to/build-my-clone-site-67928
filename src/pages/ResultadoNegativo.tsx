@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/Badge";
+import { Header } from "@/components/Header";
 import { AlertCircle, Shield, TrendingDown, Phone, CheckCircle } from "lucide-react";
 
 const ResultadoNegativo = () => {
@@ -11,6 +12,8 @@ const ResultadoNegativo = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-background to-secondary/20">
+      <Header />
+      
       {/* Hero Section */}
       <section className="container mx-auto px-4 py-16 md:py-24 text-center">
         <div className="max-w-4xl mx-auto">
