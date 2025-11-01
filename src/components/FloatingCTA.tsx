@@ -12,9 +12,9 @@ export const FloatingCTA = () => {
         const scrollTop = window.scrollY;
         const clientHeight = window.innerHeight;
         
-        // Ocultar cuando estamos a 800px del final
+        // Ocultar cuando estamos a 300px del final
         const distanceFromBottom = scrollHeight - scrollTop - clientHeight;
-        setIsVisible(distanceFromBottom > 800);
+        setIsVisible(distanceFromBottom > 300);
       } else {
         setIsVisible(true);
       }
