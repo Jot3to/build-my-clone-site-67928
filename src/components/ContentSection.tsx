@@ -197,7 +197,7 @@ export const ContentSection = () => {
           
           <Button 
             size="lg" 
-            className="text-sm md:text-lg px-6 md:px-8 py-4 md:py-6 h-auto w-full md:w-auto leading-tight"
+            className="text-sm md:text-lg px-4 md:px-8 py-3 md:py-6 h-auto w-full md:w-auto whitespace-normal leading-snug"
             onClick={scrollToForm}
           >
             Quiero saber si mi deuda prescribió
