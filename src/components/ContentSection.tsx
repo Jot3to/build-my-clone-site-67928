@@ -74,7 +74,7 @@ export const ContentSection = () => {
           </div>
           
           <div className="grid gap-6">
-            <div className="bg-muted/50 border-t-4 md:border-t-0 md:border-l-4 border-primary p-6 rounded-b-2xl md:rounded-r-2xl md:rounded-bl-2xl space-y-3">
+            <div className="bg-muted/50 border-t-4 border-l-0 md:border-t-0 md:border-l-4 border-primary p-6 rounded-b-2xl md:rounded-r-2xl md:rounded-bl-2xl space-y-3">
               <div className="flex items-start gap-4">
                 <img 
                   src="https://i.pravatar.cc/150?img=47" 
@@ -90,7 +90,7 @@ export const ContentSection = () => {
               </div>
             </div>
             
-            <div className="bg-muted/50 border-t-4 md:border-t-0 md:border-l-4 border-primary p-6 rounded-b-2xl md:rounded-r-2xl md:rounded-bl-2xl space-y-3">
+            <div className="bg-muted/50 border-t-4 border-l-0 md:border-t-0 md:border-l-4 border-primary p-6 rounded-b-2xl md:rounded-r-2xl md:rounded-bl-2xl space-y-3">
               <div className="flex items-start gap-4">
                 <img 
                   src="https://i.pravatar.cc/150?img=12" 
@@ -106,7 +106,7 @@ export const ContentSection = () => {
               </div>
             </div>
             
-            <div className="bg-muted/50 border-t-4 md:border-t-0 md:border-l-4 border-primary p-6 rounded-b-2xl md:rounded-r-2xl md:rounded-bl-2xl space-y-3">
+            <div className="bg-muted/50 border-t-4 border-l-0 md:border-t-0 md:border-l-4 border-primary p-6 rounded-b-2xl md:rounded-r-2xl md:rounded-bl-2xl space-y-3">
               <div className="flex items-start gap-4">
                 <img 
                   src="https://i.pravatar.cc/150?img=33" 
