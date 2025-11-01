@@ -1,10 +1,7 @@
 import { ContactForm } from "./ContactForm";
-import { Star, Users } from "lucide-react";
-import { useState } from "react";
+import { Star } from "lucide-react";
 
 export const HeroSection = () => {
-  const [randomCount] = useState(() => Math.floor(Math.random() * 100) + 1);
-
   return (
     <section className="hero-section py-12 md:py-16 px-2 md:px-12">
       <div className="container mx-auto max-w-6xl">
@@ -61,14 +58,8 @@ export const HeroSection = () => {
           </div>
           
           {/* Contact Form on the right */}
-          <div className="flex flex-col justify-center items-start gap-4">
+          <div className="flex justify-center items-start">
             <ContactForm />
-            <div className="w-full bg-primary/10 border border-primary/20 rounded-lg p-3 flex items-center gap-2 justify-center">
-              <Users className="w-4 h-4 text-primary" />
-              <p className="text-sm font-medium">
-                Últimas 24 horas: <span className="text-primary font-semibold">{randomCount} personas</span> consultaron su situación
-              </p>
-            </div>
           </div>
         </div>
       </div>
