@@ -103,51 +103,6 @@ Empresas acreedoras: ${validatedData.companies}${validatedData.additionalInfo ? 
     <div className="bg-white rounded-2xl shadow-2xl p-4 md:p-8 w-full max-w-full md:max-w-2xl">
       <form onSubmit={handleSubmit} className="space-y-4">
         <div>
-          <Input
-            type="text"
-            name="name"
-            placeholder="Nombre"
-            value={formData.name}
-            onChange={handleChange}
-            className={errors.name ? "border-destructive" : ""}
-            maxLength={100}
-          />
-          {errors.name && (
-            <p className="text-destructive text-sm mt-1">{errors.name}</p>
-          )}
-        </div>
-
-        <div>
-          <Input
-            type="email"
-            name="email"
-            placeholder="Email"
-            value={formData.email}
-            onChange={handleChange}
-            className={errors.email ? "border-destructive" : ""}
-            maxLength={255}
-          />
-          {errors.email && (
-            <p className="text-destructive text-sm mt-1">{errors.email}</p>
-          )}
-        </div>
-
-        <div>
-          <Input
-            type="tel"
-            name="phone"
-            placeholder="Teléfono"
-            value={formData.phone}
-            onChange={handleChange}
-            className={errors.phone ? "border-destructive" : ""}
-            maxLength={20}
-          />
-          {errors.phone && (
-            <p className="text-destructive text-sm mt-1">{errors.phone}</p>
-          )}
-        </div>
-
-        <div>
           <Select
             name="debtAmount"
             value={formData.debtAmount}
@@ -247,6 +202,51 @@ Empresas acreedoras: ${validatedData.companies}${validatedData.additionalInfo ? 
           />
           {errors.additionalInfo && (
             <p className="text-destructive text-sm mt-1">{errors.additionalInfo}</p>
+          )}
+        </div>
+
+        <div>
+          <Input
+            type="text"
+            name="name"
+            placeholder="Nombre"
+            value={formData.name}
+            onChange={handleChange}
+            className={errors.name ? "border-destructive" : ""}
+            maxLength={100}
+          />
+          {errors.name && (
+            <p className="text-destructive text-sm mt-1">{errors.name}</p>
+          )}
+        </div>
+
+        <div>
+          <Input
+            type="email"
+            name="email"
+            placeholder="Email"
+            value={formData.email}
+            onChange={handleChange}
+            className={errors.email ? "border-destructive" : ""}
+            maxLength={255}
+          />
+          {errors.email && (
+            <p className="text-destructive text-sm mt-1">{errors.email}</p>
+          )}
+        </div>
+
+        <div>
+          <Input
+            type="tel"
+            name="phone"
+            placeholder="Teléfono"
+            value={formData.phone}
+            onChange={handleChange}
+            className={errors.phone ? "border-destructive" : ""}
+            maxLength={20}
+          />
+          {errors.phone && (
+            <p className="text-destructive text-sm mt-1">{errors.phone}</p>
           )}
         </div>
 
