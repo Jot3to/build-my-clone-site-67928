@@ -35,7 +35,7 @@ export const CTASection = () => {
             <img
               src={lawyerImage}
               alt="Abogado profesional especialista en soluciones de deuda"
-              className="rounded-3xl shadow-2xl w-full object-cover aspect-[4/3] md:aspect-[5/6]"
+              className="rounded-3xl shadow-2xl w-full object-cover aspect-[16/9] md:aspect-[5/6] object-[center_20%] md:object-center"
             />
           </div>
         </div>
