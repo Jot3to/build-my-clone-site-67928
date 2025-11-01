@@ -19,7 +19,7 @@ export const CTASection = () => {
               Hoy está libre gracias a la asesoría legal correcta.
             </p>
             <p className="text-base md:text-lg leading-relaxed opacity-90 font-semibold">
-              +400 casos resueltos | Evaluación 100% gratuita | Abogados especialistas en soluciones de deuda
+              +5.000 casos resueltos | Evaluación 100% gratuita | Abogados especialistas en soluciones de deuda
             </p>
             <p className="text-base md:text-lg leading-relaxed opacity-90 font-semibold">
               Tu situación tiene salida legal. Solo necesitas el camino correcto.

@@ -224,7 +224,7 @@ export const ContentSection = () => {
           
           <div className="flex flex-col items-center text-center space-y-2">
             <Award className="w-10 h-10 text-primary" />
-            <p className="text-sm font-medium">+500 casos resueltos</p>
+            <p className="text-sm font-medium">+5.000 casos resueltos</p>
           </div>
           
           <div className="flex flex-col items-center text-center space-y-2">
