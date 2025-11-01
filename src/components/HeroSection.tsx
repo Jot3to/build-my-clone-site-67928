@@ -33,7 +33,7 @@ export const HeroSection = () => {
                   ))}
                 </div>
                 <p className="text-sm font-medium opacity-90">
-                  +5.000 clientes satisfechos
+                  +5.000 clientes sin deudas
                 </p>
               </div>
             </div>
