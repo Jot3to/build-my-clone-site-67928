@@ -1,4 +1,4 @@
-import logo from "@/assets/logo-mi-eunacom.svg";
+import logo from "@/assets/logo-adios-deudas-new.png";
 
 export const Header = () => {
   return (
@@ -6,8 +6,8 @@ export const Header = () => {
       <div className="container mx-auto flex justify-center items-center">
         <img 
           src={logo} 
-          alt="Mi Eunacom" 
-          className="h-8 md:h-10 w-auto"
+          alt="Adiós Deudas" 
+          className="h-8 md:h-12 w-auto"
         />
       </div>
     </header>
