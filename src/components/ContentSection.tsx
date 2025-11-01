@@ -190,7 +190,7 @@ export const ContentSection = () => {
 
         {/* Segundo CTA */}
         <div className="bg-gradient-to-br from-primary/20 to-primary/5 border-2 border-primary/30 p-6 md:p-12 rounded-2xl text-center space-y-4 md:space-y-6">
-          <div className="flex items-center justify-center gap-2 text-xs md:text-sm opacity-80">
+          <div className="flex flex-col md:flex-row items-center justify-center gap-2 text-xs md:text-sm opacity-80">
             <Lock className="w-3 h-3 md:w-4 md:h-4" />
             <span>Tu información está protegida y es confidencial</span>
           </div>
