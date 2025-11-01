@@ -75,13 +75,13 @@ export const ContentSection = () => {
           
           <div className="grid gap-6">
             <div className="bg-muted/50 border-t-4 border-l-0 md:border-t-0 md:border-l-4 border-primary p-6 rounded-b-2xl md:rounded-r-2xl md:rounded-bl-2xl space-y-3">
-              <div className="flex items-start gap-4">
+              <div className="flex flex-col md:flex-row items-center md:items-start gap-4">
                 <img 
                   src="https://i.pravatar.cc/150?img=47" 
                   alt="María P."
                   className="w-12 h-12 rounded-full object-cover flex-shrink-0"
                 />
-                <div className="flex-1">
+                <div className="flex-1 text-center md:text-left">
                   <p className="text-lg leading-relaxed italic">
                     "Tenía una deuda de $3.500.000 con Ripley desde 2018. Gracias a Adiós Deudas, se declaró prescrita y salí de Dicom"
                   </p>
@@ -91,13 +91,13 @@ export const ContentSection = () => {
             </div>
             
             <div className="bg-muted/50 border-t-4 border-l-0 md:border-t-0 md:border-l-4 border-primary p-6 rounded-b-2xl md:rounded-r-2xl md:rounded-bl-2xl space-y-3">
-              <div className="flex items-start gap-4">
+              <div className="flex flex-col md:flex-row items-center md:items-start gap-4">
                 <img 
                   src="https://i.pravatar.cc/150?img=12" 
                   alt="Carlos R."
                   className="w-12 h-12 rounded-full object-cover flex-shrink-0"
                 />
-                <div className="flex-1">
+                <div className="flex-1 text-center md:text-left">
                   <p className="text-lg leading-relaxed italic">
                     "Debía $1.800.000 al Banco Falabella. Nunca fui demandado y después de 5 años, logramos que prescribiera"
                   </p>
@@ -107,13 +107,13 @@ export const ContentSection = () => {
             </div>
             
             <div className="bg-muted/50 border-t-4 border-l-0 md:border-t-0 md:border-l-4 border-primary p-6 rounded-b-2xl md:rounded-r-2xl md:rounded-bl-2xl space-y-3">
-              <div className="flex items-start gap-4">
+              <div className="flex flex-col md:flex-row items-center md:items-start gap-4">
                 <img 
                   src="https://i.pravatar.cc/150?img=33" 
                   alt="Andrés T."
                   className="w-12 h-12 rounded-full object-cover flex-shrink-0"
                 />
-                <div className="flex-1">
+                <div className="flex-1 text-center md:text-left">
                   <p className="text-lg leading-relaxed italic">
                     "Pensé que nunca saldría de Dicom. Después del análisis gratuito, descubrí que mi deuda había prescrito hace 2 años"
                   </p>
