@@ -12,7 +12,7 @@ export const CTASection = () => {
         <div className="grid md:grid-cols-[1.4fr,1fr] gap-8 md:gap-12 items-center">
           <div className="space-y-6 text-white order-2 md:order-1">
             <h2 className="text-3xl md:text-4xl">
-              💼 No sigas viviendo con el peso de las deudas
+              No sigas viviendo con el peso de las deudas
             </h2>
             <p className="text-base md:text-lg leading-relaxed opacity-90">
               Carla tenía $4.500.000 en deudas y no sabía qué hacer.
