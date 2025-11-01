@@ -19,7 +19,7 @@ export const ContentSection = () => {
               </div>
             </div>
             <p className="text-lg font-semibold leading-snug">
-              Respuesta en menos de 24 horas
+              Resultado en 2 minutos
             </p>
           </div>
           
@@ -30,7 +30,7 @@ export const ContentSection = () => {
               </div>
             </div>
             <p className="text-lg font-semibold leading-snug">
-              Evaluación 100% gratuita y sin compromiso
+              Evaluación 100% gratuita
             </p>
           </div>
           
@@ -41,7 +41,7 @@ export const ContentSection = () => {
               </div>
             </div>
             <p className="text-lg font-semibold leading-snug">
-              Atención de abogados especialistas en prescripción de deudas
+              Servicio 100% online
             </p>
           </div>
         </div>
