@@ -39,7 +39,7 @@ export const HeroSection = () => {
             </div>
 
             <h1 className="text-3xl md:text-4xl lg:text-5xl leading-tight font-bold">
-              ¿Quieres saber si estás en DICOM?
+              ¿Quieres saber si tu deuda está prescrita?
             </h1>
             <p className="text-lg leading-relaxed opacity-80 mb-4">
               Responde la encuesta y descúbrelo en menos de 2 minutos
