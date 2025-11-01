@@ -1,6 +1,37 @@
 import { ArrowRight } from "lucide-react";
+import { useState, useEffect } from "react";
 
 export const FloatingCTA = () => {
+  const [isVisible, setIsVisible] = useState(true);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      // Solo aplicar en mobile
+      if (window.innerWidth < 768) {
+        const scrollHeight = document.documentElement.scrollHeight;
+        const scrollTop = window.scrollY;
+        const clientHeight = window.innerHeight;
+        
+        // Ocultar cuando estamos a 800px del final
+        const distanceFromBottom = scrollHeight - scrollTop - clientHeight;
+        setIsVisible(distanceFromBottom > 800);
+      } else {
+        setIsVisible(true);
+      }
+    };
+
+    handleScroll(); // Check inicial
+    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('resize', handleScroll);
+    
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener('resize', handleScroll);
+    };
+  }, []);
+
+  if (!isVisible) return null;
+
   return (
     <div className="fixed bottom-6 right-6 z-50 animate-fade-in">
       <a
