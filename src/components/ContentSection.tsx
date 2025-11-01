@@ -173,6 +173,13 @@ export const ContentSection = () => {
             </div>
             
             <div className="space-y-3">
+              <h3 className="text-xl font-semibold">¿Es legal que me sigan cobrando si mi deuda está prescrita?</h3>
+              <p className="text-lg leading-relaxed opacity-90">
+                Sí es legal, recuerda que la prescripción no es automática, tú debes pedirla y para eso es este test para saber si está o no prescrita.
+              </p>
+            </div>
+            
+            <div className="space-y-3">
               <h3 className="text-xl font-semibold">¿Salgo automáticamente de Dicom?</h3>
               <p className="text-lg leading-relaxed opacity-90">
                 No es automático, pero al declararse la prescripción, puedes solicitar tu eliminación del boletín comercial.
