@@ -18,6 +18,7 @@ const contactSchema = z.object({
   phone: z.string().trim().min(1, { message: "El teléfono es requerido" }).max(20, { message: "El teléfono debe tener menos de 20 caracteres" }),
   debtAmount: z.string().trim().min(1, { message: "El monto de la deuda es requerido" }).max(50, { message: "El monto debe tener menos de 50 caracteres" }),
   debtTime: z.string().trim().min(1, { message: "Este campo es requerido" }).max(100, { message: "Debe tener menos de 100 caracteres" }),
+  sued: z.string().trim().min(1, { message: "Este campo es requerido" }),
   companies: z.string().trim().min(1, { message: "Este campo es requerido" }).max(500, { message: "Debe tener menos de 500 caracteres" }),
   additionalInfo: z.string().trim().max(1000, { message: "Debe tener menos de 1000 caracteres" }).optional()
 });
@@ -32,6 +33,7 @@ export const ContactForm = () => {
     phone: "",
     debtAmount: "",
     debtTime: "",
+    sued: "",
     companies: "",
     additionalInfo: ""
   });
@@ -63,6 +65,7 @@ Email: ${validatedData.email}
 Teléfono: ${validatedData.phone}
 Monto de deuda: ${validatedData.debtAmount}
 Tiempo con deuda: ${validatedData.debtTime}
+¿Fuiste demandado?: ${validatedData.sued}
 Empresas acreedoras: ${validatedData.companies}${validatedData.additionalInfo ? `\nInformación adicional: ${validatedData.additionalInfo}` : ''}`;
 
       const whatsappUrl = `https://wa.me/56912345678?text=${encodeURIComponent(message)}`;
@@ -74,7 +77,7 @@ Empresas acreedoras: ${validatedData.companies}${validatedData.additionalInfo ? 
       });
 
       // Reset form
-      setFormData({ name: "", email: "", phone: "", debtAmount: "", debtTime: "", companies: "", additionalInfo: "" });
+      setFormData({ name: "", email: "", phone: "", debtAmount: "", debtTime: "", sued: "", companies: "", additionalInfo: "" });
     } catch (error) {
       if (error instanceof z.ZodError) {
         const fieldErrors: Partial<Record<keyof ContactFormData, string>> = {};
@@ -181,6 +184,30 @@ Empresas acreedoras: ${validatedData.companies}${validatedData.additionalInfo ? 
           />
           {errors.debtTime && (
             <p className="text-destructive text-sm mt-1">{errors.debtTime}</p>
+          )}
+        </div>
+
+        <div>
+          <Select
+            name="sued"
+            value={formData.sued}
+            onValueChange={(value) => {
+              setFormData(prev => ({ ...prev, sued: value }));
+              if (errors.sued) {
+                setErrors(prev => ({ ...prev, sued: undefined }));
+              }
+            }}
+          >
+            <SelectTrigger className={errors.sued ? "border-destructive" : ""}>
+              <SelectValue placeholder="¿Fuiste demandado por tus deudas?" />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem value="si">Sí</SelectItem>
+              <SelectItem value="no">No</SelectItem>
+            </SelectContent>
+          </Select>
+          {errors.sued && (
+            <p className="text-destructive text-sm mt-1">{errors.sued}</p>
           )}
         </div>
 
