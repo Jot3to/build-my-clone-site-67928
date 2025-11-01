@@ -75,24 +75,51 @@ export const ContentSection = () => {
           
           <div className="grid gap-6">
             <div className="bg-muted/50 border-l-4 border-primary p-6 rounded-r-2xl space-y-3">
-              <p className="text-lg leading-relaxed italic">
-                "Tenía una deuda de $3.500.000 con Ripley desde 2018. Gracias a Adiós Deudas, se declaró prescrita y salí de Dicom"
-              </p>
-              <p className="text-sm opacity-70 font-medium">— María P., Santiago</p>
+              <div className="flex items-start gap-4">
+                <img 
+                  src="https://i.pravatar.cc/150?img=47" 
+                  alt="María P."
+                  className="w-12 h-12 rounded-full object-cover flex-shrink-0"
+                />
+                <div className="flex-1">
+                  <p className="text-lg leading-relaxed italic">
+                    "Tenía una deuda de $3.500.000 con Ripley desde 2018. Gracias a Adiós Deudas, se declaró prescrita y salí de Dicom"
+                  </p>
+                  <p className="text-sm opacity-70 font-medium mt-2">— María P., Santiago</p>
+                </div>
+              </div>
             </div>
             
             <div className="bg-muted/50 border-l-4 border-primary p-6 rounded-r-2xl space-y-3">
-              <p className="text-lg leading-relaxed italic">
-                "Debía $1.800.000 al Banco Falabella. Nunca fui demandado y después de 5 años, logramos que prescribiera"
-              </p>
-              <p className="text-sm opacity-70 font-medium">— Carlos R., Concepción</p>
+              <div className="flex items-start gap-4">
+                <img 
+                  src="https://i.pravatar.cc/150?img=12" 
+                  alt="Carlos R."
+                  className="w-12 h-12 rounded-full object-cover flex-shrink-0"
+                />
+                <div className="flex-1">
+                  <p className="text-lg leading-relaxed italic">
+                    "Debía $1.800.000 al Banco Falabella. Nunca fui demandado y después de 5 años, logramos que prescribiera"
+                  </p>
+                  <p className="text-sm opacity-70 font-medium mt-2">— Carlos R., Concepción</p>
+                </div>
+              </div>
             </div>
             
             <div className="bg-muted/50 border-l-4 border-primary p-6 rounded-r-2xl space-y-3">
-              <p className="text-lg leading-relaxed italic">
-                "Pensé que nunca saldría de Dicom. Después del análisis gratuito, descubrí que mi deuda había prescrito hace 2 años"
-              </p>
-              <p className="text-sm opacity-70 font-medium">— Andrés T., Valparaíso</p>
+              <div className="flex items-start gap-4">
+                <img 
+                  src="https://i.pravatar.cc/150?img=33" 
+                  alt="Andrés T."
+                  className="w-12 h-12 rounded-full object-cover flex-shrink-0"
+                />
+                <div className="flex-1">
+                  <p className="text-lg leading-relaxed italic">
+                    "Pensé que nunca saldría de Dicom. Después del análisis gratuito, descubrí que mi deuda había prescrito hace 2 años"
+                  </p>
+                  <p className="text-sm opacity-70 font-medium mt-2">— Andrés T., Valparaíso</p>
+                </div>
+              </div>
             </div>
           </div>
         </article>
