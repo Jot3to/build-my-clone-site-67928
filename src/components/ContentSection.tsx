@@ -59,7 +59,7 @@ export const ContentSection = () => {
             Si tu deuda tiene más de 3 años y <strong>NO has sido demandado</strong>, podrías tener derecho a que se declare prescrita.
           </p>
           
-          <div className="bg-background/80 border-l-0 md:border-l-4 border-destructive p-6 rounded-lg md:rounded-r-lg md:rounded-l-none">
+          <div className="bg-background/80 border-t-4 border-l-0 md:border-l-4 border-destructive p-6 rounded-lg md:rounded-r-lg md:rounded-l-none">
             <p className="text-lg leading-relaxed font-semibold">
               Pero ATENCIÓN: Si reconoces la deuda o haces un pago parcial, ¡interrumpes la prescripción y pierdes este beneficio!
             </p>
