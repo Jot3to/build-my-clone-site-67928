@@ -139,11 +139,12 @@ Empresas acreedoras: ${validatedData.companies}${validatedData.additionalInfo ? 
             }}
           >
             <SelectTrigger className={errors.debtTime ? "border-destructive" : ""}>
-              <SelectValue placeholder="¿Hace cuánto tienes la deuda?" />
+              <SelectValue placeholder="¿Hace cuánto dejaste de pagar tu deuda?" />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="mas-1-ano">Más de 1 año</SelectItem>
-              <SelectItem value="menos-1-ano">Menos de 1 año</SelectItem>
+              <SelectItem value="menos-3-anos">Menos de 3 años</SelectItem>
+              <SelectItem value="entre-3-5-anos">Entre 3 y 5 años</SelectItem>
+              <SelectItem value="mas-5-anos">Más de 5 años</SelectItem>
             </SelectContent>
           </Select>
           {errors.debtTime && (
