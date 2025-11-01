@@ -12,35 +12,35 @@ export const ContentSection = () => {
         
         {/* Bloque de beneficios con cajas */}
         <div className="grid md:grid-cols-3 gap-6">
-          <div className="bg-card border-2 border-primary/20 p-6 rounded-2xl space-y-4 text-center hover:border-primary/40 transition-colors">
-            <div className="flex justify-center">
+          <div className="bg-card border-2 border-primary/20 p-6 rounded-2xl space-y-4 hover:border-primary/40 transition-colors">
+            <div className="flex justify-center md:justify-center">
               <div className="w-16 h-16 rounded-xl bg-primary/10 flex items-center justify-center">
                 <Clock className="w-8 h-8 text-primary" />
               </div>
             </div>
-            <p className="text-lg font-semibold leading-snug">
+            <p className="text-lg font-semibold leading-snug text-center md:text-center">
               Resultado en 2 minutos
             </p>
           </div>
           
-          <div className="bg-card border-2 border-primary/20 p-6 rounded-2xl space-y-4 text-center hover:border-primary/40 transition-colors">
-            <div className="flex justify-center">
+          <div className="bg-card border-2 border-primary/20 p-6 rounded-2xl space-y-4 hover:border-primary/40 transition-colors">
+            <div className="flex justify-center md:justify-center">
               <div className="w-16 h-16 rounded-xl bg-primary/10 flex items-center justify-center">
                 <Award className="w-8 h-8 text-primary" />
               </div>
             </div>
-            <p className="text-lg font-semibold leading-snug">
+            <p className="text-lg font-semibold leading-snug text-center md:text-center">
               Evaluación 100% gratuita
             </p>
           </div>
           
-          <div className="bg-card border-2 border-primary/20 p-6 rounded-2xl space-y-4 text-center hover:border-primary/40 transition-colors">
-            <div className="flex justify-center">
+          <div className="bg-card border-2 border-primary/20 p-6 rounded-2xl space-y-4 hover:border-primary/40 transition-colors">
+            <div className="flex justify-center md:justify-center">
               <div className="w-16 h-16 rounded-xl bg-primary/10 flex items-center justify-center">
                 <Scale className="w-8 h-8 text-primary" />
               </div>
             </div>
-            <p className="text-lg font-semibold leading-snug">
+            <p className="text-lg font-semibold leading-snug text-center md:text-center">
               Servicio 100% online
             </p>
           </div>
@@ -48,8 +48,8 @@ export const ContentSection = () => {
 
         {/* Bloque de Urgencia/FOMO */}
         <article className="space-y-6 bg-destructive/10 border-2 border-destructive/30 p-8 rounded-2xl">
-          <div className="flex items-start gap-4">
-            <AlertTriangle className="w-8 h-8 text-destructive flex-shrink-0 mt-1" />
+          <div className="flex flex-col md:flex-row items-start gap-4">
+            <AlertTriangle className="w-8 h-8 text-destructive flex-shrink-0 md:mt-1" />
             <h2 className="text-2xl md:text-3xl font-semibold">
               ¿Sabías que muchas personas siguen pagando deudas que ya prescribieron?
             </h2>
