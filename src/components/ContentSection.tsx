@@ -160,7 +160,7 @@ export const ContentSection = () => {
         {/* FAQ Corto */}
         <article className="space-y-6">
           <div className="flex items-center gap-3">
-            <HelpCircle className="w-8 h-8 text-primary" />
+            <HelpCircle className="w-8 h-8 text-primary hidden md:block" />
             <h2 className="text-3xl md:text-4xl">Preguntas frecuentes</h2>
           </div>
           
