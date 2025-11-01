@@ -38,7 +38,14 @@ export const HeroSection = () => {
               </div>
             </div>
 
-            <div className="rounded-2xl shadow-2xl w-full overflow-hidden aspect-[16/9] mb-4" style={{ boxShadow: 'var(--shadow-soft)' }}>
+            <h1 className="text-3xl md:text-4xl lg:text-5xl leading-tight font-bold">
+              ¿Quieres saber si estás en DICOM?
+            </h1>
+            <p className="text-lg leading-relaxed opacity-80 mb-4">
+              Responde la encuesta y descúbrelo en menos de 2 minutos
+            </p>
+
+            <div className="rounded-2xl shadow-2xl w-full overflow-hidden aspect-[16/9]" style={{ boxShadow: 'var(--shadow-soft)' }}>
               <iframe
                 src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
                 className="w-full h-full"
@@ -48,12 +55,6 @@ export const HeroSection = () => {
                 title="Video explicativo"
               ></iframe>
             </div>
-            <h1 className="text-3xl md:text-4xl lg:text-5xl leading-tight font-bold">
-              ¿Quieres saber si estás en DICOM?
-            </h1>
-            <p className="text-lg leading-relaxed opacity-80">
-              Responde la encuesta y descúbrelo en menos de 2 minutos
-            </p>
           </div>
           
           {/* Contact Form on the right */}
