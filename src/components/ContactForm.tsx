@@ -138,7 +138,7 @@ Empresas acreedoras: ${validatedData.companies}${validatedData.additionalInfo ? 
               }
             }}
           >
-            <SelectTrigger className={errors.debtTime ? "border-destructive" : ""}>
+            <SelectTrigger className={`${errors.debtTime ? "border-destructive" : ""} h-14 md:h-10`}>
               <SelectValue placeholder="¿Hace cuánto dejaste de pagar tu deuda?" />
             </SelectTrigger>
             <SelectContent>
@@ -163,7 +163,7 @@ Empresas acreedoras: ${validatedData.companies}${validatedData.additionalInfo ? 
               }
             }}
           >
-            <SelectTrigger className={errors.sued ? "border-destructive" : ""}>
+            <SelectTrigger className={`${errors.sued ? "border-destructive" : ""} h-14 md:h-10`}>
               <SelectValue placeholder="¿Fuiste demandado por tus deudas?" />
             </SelectTrigger>
             <SelectContent>
