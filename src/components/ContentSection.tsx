@@ -1,4 +1,4 @@
-import { Check, AlertTriangle, Users, GraduationCap, HelpCircle, Shield, Award, Clock, Lock } from "lucide-react";
+import { Check, AlertTriangle, Users, GraduationCap, HelpCircle, Shield, Award, Clock, Lock, Scale } from "lucide-react";
 import { Button } from "./ui/button";
 
 export const ContentSection = () => {
@@ -10,24 +10,38 @@ export const ContentSection = () => {
     <section className="content-section py-16 px-6 md:px-12">
       <div className="container mx-auto max-w-4xl space-y-16">
         
-        {/* Bloque de beneficios con checkmarks */}
-        <div className="bg-muted/30 border-l-4 border-primary p-8 rounded-r-2xl space-y-4">
-          <div className="flex items-start gap-3">
-            <Check className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
-            <p className="text-lg leading-relaxed">
-              <strong>Respuesta en menos de 24 horas</strong>
+        {/* Bloque de beneficios con cajas */}
+        <div className="grid md:grid-cols-3 gap-6">
+          <div className="bg-card border-2 border-primary/20 p-6 rounded-2xl space-y-4 text-center hover:border-primary/40 transition-colors">
+            <div className="flex justify-center">
+              <div className="w-16 h-16 rounded-xl bg-primary/10 flex items-center justify-center">
+                <Clock className="w-8 h-8 text-primary" />
+              </div>
+            </div>
+            <p className="text-lg font-semibold leading-snug">
+              Respuesta en menos de 24 horas
             </p>
           </div>
-          <div className="flex items-start gap-3">
-            <Check className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
-            <p className="text-lg leading-relaxed">
-              <strong>Evaluación 100% gratuita y sin compromiso</strong>
+          
+          <div className="bg-card border-2 border-primary/20 p-6 rounded-2xl space-y-4 text-center hover:border-primary/40 transition-colors">
+            <div className="flex justify-center">
+              <div className="w-16 h-16 rounded-xl bg-primary/10 flex items-center justify-center">
+                <Award className="w-8 h-8 text-primary" />
+              </div>
+            </div>
+            <p className="text-lg font-semibold leading-snug">
+              Evaluación 100% gratuita y sin compromiso
             </p>
           </div>
-          <div className="flex items-start gap-3">
-            <Check className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
-            <p className="text-lg leading-relaxed">
-              <strong>Atención de abogados especialistas en prescripción de deudas</strong>
+          
+          <div className="bg-card border-2 border-primary/20 p-6 rounded-2xl space-y-4 text-center hover:border-primary/40 transition-colors">
+            <div className="flex justify-center">
+              <div className="w-16 h-16 rounded-xl bg-primary/10 flex items-center justify-center">
+                <Scale className="w-8 h-8 text-primary" />
+              </div>
+            </div>
+            <p className="text-lg font-semibold leading-snug">
+              Atención de abogados especialistas en prescripción de deudas
             </p>
           </div>
         </div>
