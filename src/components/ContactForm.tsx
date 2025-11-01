@@ -4,6 +4,13 @@ import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 import { Textarea } from "./ui/textarea";
 import { useToast } from "@/hooks/use-toast";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 
 const contactSchema = z.object({
   name: z.string().trim().min(1, { message: "El nombre es requerido" }).max(100, { message: "El nombre debe tener menos de 100 caracteres" }),
@@ -138,15 +145,25 @@ Empresas acreedoras: ${validatedData.companies}${validatedData.additionalInfo ? 
         </div>
 
         <div>
-          <Input
-            type="text"
+          <Select
             name="debtAmount"
-            placeholder="Monto de tu deuda"
             value={formData.debtAmount}
-            onChange={handleChange}
-            className={errors.debtAmount ? "border-destructive" : ""}
-            maxLength={50}
-          />
+            onValueChange={(value) => {
+              setFormData(prev => ({ ...prev, debtAmount: value }));
+              if (errors.debtAmount) {
+                setErrors(prev => ({ ...prev, debtAmount: undefined }));
+              }
+            }}
+          >
+            <SelectTrigger className={errors.debtAmount ? "border-destructive" : ""}>
+              <SelectValue placeholder="Monto de tu deuda" />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem value="1-2-millones">1 a 2 millones</SelectItem>
+              <SelectItem value="2-5-millones">2 a 5 millones</SelectItem>
+              <SelectItem value="mas-5-millones">Más de 5 millones</SelectItem>
+            </SelectContent>
+          </Select>
           {errors.debtAmount && (
             <p className="text-destructive text-sm mt-1">{errors.debtAmount}</p>
           )}
@@ -159,7 +176,7 @@ Empresas acreedoras: ${validatedData.companies}${validatedData.additionalInfo ? 
             placeholder="¿Hace cuánto tienes la deuda?"
             value={formData.debtTime}
             onChange={handleChange}
-            className={errors.debtTime ? "border-destructive" : ""}
+            className={`${errors.debtTime ? "border-destructive" : ""} h-12 md:h-10`}
             maxLength={100}
           />
           {errors.debtTime && (
