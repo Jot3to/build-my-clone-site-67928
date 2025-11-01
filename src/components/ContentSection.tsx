@@ -189,22 +189,22 @@ export const ContentSection = () => {
         </article>
 
         {/* Segundo CTA */}
-        <div className="bg-gradient-to-br from-primary/20 to-primary/5 border-2 border-primary/30 p-8 md:p-12 rounded-2xl text-center space-y-6">
-          <div className="flex items-center justify-center gap-2 text-sm opacity-80">
-            <Lock className="w-4 h-4" />
+        <div className="bg-gradient-to-br from-primary/20 to-primary/5 border-2 border-primary/30 p-6 md:p-12 rounded-2xl text-center space-y-4 md:space-y-6">
+          <div className="flex items-center justify-center gap-2 text-xs md:text-sm opacity-80">
+            <Lock className="w-3 h-3 md:w-4 md:h-4" />
             <span>Tu información está protegida y es confidencial</span>
           </div>
           
           <Button 
             size="lg" 
-            className="text-lg px-8 py-6 h-auto"
+            className="text-base md:text-lg px-6 md:px-8 py-4 md:py-6 h-auto w-full md:w-auto"
             onClick={scrollToForm}
           >
             Quiero saber si mi deuda prescribió
           </Button>
           
-          <p className="text-base opacity-80">
-            O escríbenos directo por WhatsApp: <strong>+56 9 XXXX XXXX</strong>
+          <p className="text-sm md:text-base opacity-80">
+            O escríbenos directo por WhatsApp: <strong className="block md:inline mt-1 md:mt-0">+56 9 XXXX XXXX</strong>
           </p>
         </div>
 
