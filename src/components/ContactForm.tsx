@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { z } from "zod";
+import { useNavigate } from "react-router-dom";
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 import { Textarea } from "./ui/textarea";
@@ -27,6 +28,7 @@ type ContactFormData = z.infer<typeof contactSchema>;
 
 export const ContactForm = () => {
   const { toast } = useToast();
+  const navigate = useNavigate();
   const [formData, setFormData] = useState<ContactFormData>({
     name: "",
     email: "",
@@ -57,6 +59,12 @@ export const ContactForm = () => {
     try {
       // Validate form data
       const validatedData = contactSchema.parse(formData);
+
+      // Verificar si debe redirigir a página de resultado negativo
+      if (validatedData.sued === "si" || validatedData.debtTime === "menos-3-anos") {
+        navigate("/resultado-negativo");
+        return;
+      }
 
       // Create WhatsApp message with proper encoding
       const message = `Nueva consulta DICOM:
