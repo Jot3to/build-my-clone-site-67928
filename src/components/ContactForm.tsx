@@ -173,15 +173,24 @@ Empresas acreedoras: ${validatedData.companies}${validatedData.additionalInfo ? 
         </div>
 
         <div>
-          <Input
-            type="text"
+          <Select
             name="debtTime"
-            placeholder="¿Hace cuánto tienes la deuda?"
             value={formData.debtTime}
-            onChange={handleChange}
-            className={`${errors.debtTime ? "border-destructive" : ""} h-12 md:h-10`}
-            maxLength={100}
-          />
+            onValueChange={(value) => {
+              setFormData(prev => ({ ...prev, debtTime: value }));
+              if (errors.debtTime) {
+                setErrors(prev => ({ ...prev, debtTime: undefined }));
+              }
+            }}
+          >
+            <SelectTrigger className={errors.debtTime ? "border-destructive" : ""}>
+              <SelectValue placeholder="¿Hace cuánto tienes la deuda?" />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem value="mas-1-ano">Más de 1 año</SelectItem>
+              <SelectItem value="menos-1-ano">Menos de 1 año</SelectItem>
+            </SelectContent>
+          </Select>
           {errors.debtTime && (
             <p className="text-destructive text-sm mt-1">{errors.debtTime}</p>
           )}
