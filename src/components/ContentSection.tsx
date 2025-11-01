@@ -127,7 +127,7 @@ export const ContentSection = () => {
         {/* Sección Educativa */}
         <article className="space-y-6">
           <div className="flex items-center gap-3">
-            <GraduationCap className="w-8 h-8 text-primary" />
+            <GraduationCap className="w-8 h-8 text-primary hidden md:block" />
             <h2 className="text-3xl md:text-4xl">¿Cómo funciona la prescripción de deudas?</h2>
           </div>
           
