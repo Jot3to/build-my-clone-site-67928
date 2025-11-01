@@ -1,7 +1,10 @@
 import { Check, AlertTriangle, Users, GraduationCap, HelpCircle, Shield, Award, Clock, Lock, Scale } from "lucide-react";
 import { Button } from "./ui/button";
+import { useState } from "react";
 
 export const ContentSection = () => {
+  const [randomCount] = useState(() => Math.floor(Math.random() * 100) + 1);
+
   const scrollToForm = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
@@ -9,6 +12,14 @@ export const ContentSection = () => {
   return (
     <section className="content-section py-16 px-6 md:px-12">
       <div className="container mx-auto max-w-4xl space-y-16">
+        
+        {/* Contador de urgencia */}
+        <div className="bg-primary/10 border border-primary/20 rounded-lg p-4 flex items-center gap-2 justify-center">
+          <Users className="w-5 h-5 text-primary" />
+          <p className="text-base md:text-lg font-medium">
+            Últimas 24 horas: <span className="text-primary font-semibold">{randomCount} personas</span> consultaron su situación
+          </p>
+        </div>
         
         {/* Bloque de beneficios con cajas */}
         <div className="grid md:grid-cols-3 gap-6">
