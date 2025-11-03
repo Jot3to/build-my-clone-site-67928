@@ -69,7 +69,7 @@ const ResultadoNegativo = () => {
           {[
             {
               title: "Embargo de tu sueldo o cuenta bancaria",
-              description: "Si tienes una sentencia en tu contra, pueden embargar hasta el 50% de tu sueldo líquido."
+              description: "Corres el riesgo de que embarguen tus ingresos o cuentas bancarias."
             },
             {
               title: "Remate de tus bienes",
@@ -121,44 +121,20 @@ const ResultadoNegativo = () => {
       {/* Sección de Soluciones */}
       <section className="container mx-auto px-4 py-16 bg-card rounded-3xl shadow-xl mb-16 max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center text-foreground">
-          Pero no todo está perdido. Tienes 3 opciones legales:
+          Pero no todo está perdido. Tienes una opción legal:
         </h2>
         
         <div className="space-y-8">
           <div className="bg-secondary/30 p-8 rounded-xl">
             <h3 className="text-2xl font-bold mb-4 text-primary">
-              1️⃣ Negociación con descuentos importantes
+              Ley de Insolvencia (Ley de Quiebras)
             </h3>
-            <p className="mb-4 text-muted-foreground">Nuestros abogados negocian con tus acreedores para:</p>
+            <p className="mb-4 text-muted-foreground">Si tienes múltiples deudas y no puedes pagarlas, la Ley de Insolvencia te permite reorganizar todas tus deudas en un solo plan. Nuestros abogados se encargan de todo el proceso para que puedas:</p>
             <ul className="space-y-2 text-foreground">
-              <li>• Reducir el monto total (descuentos del 40% al 70%)</li>
-              <li>• Eliminar intereses moratorios</li>
-              <li>• Establecer cuotas que puedas pagar</li>
-            </ul>
-          </div>
-
-          <div className="bg-secondary/30 p-8 rounded-xl">
-            <h3 className="text-2xl font-bold mb-4 text-primary">
-              2️⃣ Ley de Insolvencia (Ley de Quiebras)
-            </h3>
-            <p className="mb-4 text-muted-foreground">Si tienes múltiples deudas y no puedes pagarlas:</p>
-            <ul className="space-y-2 text-foreground">
-              <li>• Reorganiza todas tus deudas en un solo plan</li>
-              <li>• Congela los intereses</li>
-              <li>• Pagas según tu capacidad real de pago</li>
-              <li>• Puedes salir de Dicom</li>
-            </ul>
-          </div>
-
-          <div className="bg-secondary/30 p-8 rounded-xl">
-            <h3 className="text-2xl font-bold mb-4 text-primary">
-              3️⃣ Repactación favorable
-            </h3>
-            <p className="mb-4 text-muted-foreground">Creamos un plan de pago ajustado a tus ingresos:</p>
-            <ul className="space-y-2 text-foreground">
-              <li>• Cuotas más bajas</li>
-              <li>• Plazos más largos</li>
-              <li>• Sin caer en mora nuevamente</li>
+              <li>• Reorganizar todas tus deudas en un solo plan</li>
+              <li>• Congelar los intereses</li>
+              <li>• Pagar según tu capacidad real de pago</li>
+              <li>• Salir de Dicom</li>
             </ul>
           </div>
         </div>
@@ -314,7 +290,7 @@ const ResultadoNegativo = () => {
             },
             {
               question: "¿Cuánto tiempo toma resolver mi caso?",
-              answer: "Depende de tu situación específica, pero la mayoría de nuestros casos se resuelven entre 2 y 6 meses."
+              answer: "Depende de tu caso específico, pero el proceso es rápido. No te preocupes, nosotros nos encargamos de todo."
             },
             {
               question: "¿Qué pasa si no hago nada?",
