@@ -67,7 +67,7 @@ export const ContentSection = () => {
           </div>
           
           <p className="text-lg leading-relaxed">
-            Si tu deuda tiene más de 3 años y <strong>NO has sido demandado</strong>, podrías tener derecho a que se declare prescrita.
+            Si tu deuda tiene más de 1 año y <strong>NO has sido demandado</strong>, podrías tener derecho a que se declare prescrita.
           </p>
           
           <div className="bg-background/80 border-t-4 md:border-t-0 border-l-0 md:border-l-4 border-destructive p-6 rounded-lg md:rounded-r-lg md:rounded-l-none">
@@ -149,11 +149,11 @@ export const ContentSection = () => {
           <ul className="space-y-4 text-lg list-none pl-0">
             <li className="flex items-start gap-3">
               <Check className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
-              <span>Han pasado <strong>3 años desde el último pago</strong> (prescripción ejecutiva)</span>
+              <span>Han pasado <strong>1 año desde el último pago</strong> (prescripción ejecutiva)</span>
             </li>
             <li className="flex items-start gap-3">
               <Check className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
-              <span>Han pasado <strong>5 años desde que se contrajo la deuda</strong> (prescripción ordinaria)</span>
+              <span>Han pasado <strong>5 años desde que se contrajo la deuda</strong> (Extinsión de la deuda)</span>
             </li>
             <li className="flex items-start gap-3">
               <Check className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
@@ -222,7 +222,7 @@ export const ContentSection = () => {
           </Button>
           
           <p className="text-sm md:text-base opacity-80">
-            O escríbenos directo por WhatsApp: <strong className="block md:inline mt-1 md:mt-0">+56 9 XXXX XXXX</strong>
+            O escríbenos directo por WhatsApp: <strong className="block md:inline mt-1 md:mt-0">+56 9 6779 5060</strong>
           </p>
         </div>
 

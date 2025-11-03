@@ -150,8 +150,8 @@ Empresas acreedoras: ${validatedData.companies}${validatedData.additionalInfo ? 
               <SelectValue placeholder="¿Hace cuánto dejaste de pagar tu deuda?" />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="menos-3-anos">Menos de 3 años</SelectItem>
-              <SelectItem value="entre-3-5-anos">Entre 3 y 5 años</SelectItem>
+              <SelectItem value="menos-3-anos">Menos de 1 año</SelectItem>
+              <SelectItem value="entre-3-5-anos">Entre 1 y 5 años</SelectItem>
               <SelectItem value="mas-5-anos">Más de 5 años</SelectItem>
             </SelectContent>
           </Select>
