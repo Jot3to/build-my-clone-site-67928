@@ -60,10 +60,32 @@ export const ContactForm = () => {
       // Validate form data
       const validatedData = contactSchema.parse(formData);
 
-      // Verificar si debe redirigir a página de resultado negativo
-      if (validatedData.sued === "si" || validatedData.debtTime === "menos-3-anos") {
+      // Lógica de navegación basada en las respuestas
+      // 1. Si fue demandado → NO está prescrita
+      if (validatedData.sued === "si") {
         navigate("/resultado-negativo");
         return;
+      }
+
+      // 2. Si puso "No sé" → Landing intermedio
+      if (validatedData.sued === "no-se") {
+        navigate("/landing-intermedio");
+        return;
+      }
+
+      // 3. Si NO fue demandado
+      if (validatedData.sued === "no") {
+        // Si la deuda es de menos de 1 año → NO está prescrita
+        if (validatedData.debtTime === "menos-3-anos") {
+          navigate("/resultado-negativo");
+          return;
+        }
+        
+        // Si la deuda es de más de 1 año o más de 5 años → PRESCRITA
+        if (validatedData.debtTime === "entre-3-5-anos" || validatedData.debtTime === "mas-5-anos") {
+          navigate("/deuda-prescrita");
+          return;
+        }
       }
 
       // Create WhatsApp message with proper encoding
