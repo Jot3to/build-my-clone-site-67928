@@ -177,6 +177,7 @@ Empresas acreedoras: ${validatedData.companies}${validatedData.additionalInfo ? 
             <SelectContent>
               <SelectItem value="si">Sí</SelectItem>
               <SelectItem value="no">No</SelectItem>
+              <SelectItem value="no-se">No sé</SelectItem>
             </SelectContent>
           </Select>
           {errors.sued && (
