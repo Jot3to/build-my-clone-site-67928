@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/Badge";
 import { Header } from "@/components/Header";
+import { LiveCounter } from "@/components/LiveCounter";
 import { AlertCircle, Shield, TrendingDown, Phone, CheckCircle } from "lucide-react";
 
 const ResultadoNegativo = () => {
@@ -13,6 +14,7 @@ const ResultadoNegativo = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-background to-secondary/20">
       <Header />
+      <LiveCounter />
       
       {/* Hero Section */}
       <section className="container mx-auto px-4 py-16 md:py-24 text-center">
@@ -42,8 +44,8 @@ const ResultadoNegativo = () => {
           <div className="bg-secondary/30 p-6 rounded-xl mb-6">
             <h3 className="text-xl font-semibold text-foreground mb-4">Las deudas prescriben cuando:</h3>
             <ul className="space-y-2 text-foreground">
-              <li>Han pasado <strong>3 años</strong> desde el último pago (prescripción ejecutiva)</li>
-              <li>Han pasado <strong>5 años</strong> desde que se contrajo la deuda (prescripción ordinaria)</li>
+              <li>Han pasado <strong>1 año</strong> desde el último pago (prescripción ejecutiva)</li>
+              <li>Han pasado <strong>5 años</strong> desde que se contrajo la deuda (Extinsión de la deuda)</li>
               <li>El acreedor <strong>NO te ha demandado</strong> judicialmente</li>
             </ul>
           </div>
