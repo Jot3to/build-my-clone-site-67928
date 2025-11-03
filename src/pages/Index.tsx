@@ -3,6 +3,7 @@ import { HeroSection } from "@/components/HeroSection";
 import { ContentSection } from "@/components/ContentSection";
 import { CTASection } from "@/components/CTASection";
 import { FloatingCTA } from "@/components/FloatingCTA";
+import { LiveCounter } from "@/components/LiveCounter";
 import { useState, useEffect, useRef } from "react";
 
 const Index = () => {
@@ -41,6 +42,7 @@ const Index = () => {
       <ContentSection />
       <CTASection />
       {showFloatingCTA && <FloatingCTA />}
+      <LiveCounter />
     </main>
   );
 };
