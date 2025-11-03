@@ -7,7 +7,7 @@ import { AlertCircle, Shield, TrendingDown, Phone, CheckCircle } from "lucide-re
 const ResultadoNegativo = () => {
   const handleWhatsAppClick = () => {
     const message = "Hola, quiero una asesoría gratuita sobre mi deuda";
-    const whatsappUrl = `https://wa.me/56912345678?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/56967795060?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
 
@@ -247,7 +247,7 @@ const ResultadoNegativo = () => {
           Quiero mi asesoría gratuita ahora
         </Button>
         <p className="mt-6 text-muted-foreground">
-          O escríbenos directo por WhatsApp: <a href="tel:+56912345678" className="text-primary font-semibold">+56 9 1234 5678</a>
+          O escríbenos directo por WhatsApp: <a href="https://wa.me/56967795060" target="_blank" rel="noopener noreferrer" className="text-primary font-semibold">+56 9 6779 5060</a>
         </p>
       </section>
 
