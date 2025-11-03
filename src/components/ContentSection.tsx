@@ -153,7 +153,7 @@ export const ContentSection = () => {
             </li>
             <li className="flex items-start gap-3">
               <Check className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
-              <span>Han pasado <strong>5 años desde que se contrajo la deuda</strong> (Extinsión de la deuda)</span>
+              <span>Han pasado <strong>5 años desde que se contrajo la deuda</strong> (Extinción de la deuda)</span>
             </li>
             <li className="flex items-start gap-3">
               <Check className="w-6 h-6 text-primary flex-shrink-0 mt-1" />

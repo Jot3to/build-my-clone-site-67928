@@ -45,7 +45,7 @@ const ResultadoNegativo = () => {
             <h3 className="text-xl font-semibold text-foreground mb-4">Las deudas prescriben cuando:</h3>
             <ul className="space-y-2 text-foreground">
               <li>Han pasado <strong>1 año</strong> desde el último pago (prescripción ejecutiva)</li>
-              <li>Han pasado <strong>5 años</strong> desde que se contrajo la deuda (Extinsión de la deuda)</li>
+              <li>Han pasado <strong>5 años</strong> desde que se contrajo la deuda (Extinción de la deuda)</li>
               <li>El acreedor <strong>NO te ha demandado</strong> judicialmente</li>
             </ul>
           </div>
