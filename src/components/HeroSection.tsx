@@ -58,7 +58,7 @@ export const HeroSection = () => {
           </div>
           
           {/* Contact Form on the right */}
-          <div id="formulario" className="flex justify-center items-start">
+          <div className="flex justify-center items-start">
             <ContactForm />
           </div>
         </div>
