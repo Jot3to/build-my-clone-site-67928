@@ -38,7 +38,12 @@ export const FloatingCTA = () => {
       // Si estamos en la página principal, hacer scroll al formulario
       const formulario = document.getElementById('formulario');
       if (formulario) {
-        formulario.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        const yOffset = -100; // Offset para dejar espacio arriba
+        const y = formulario.getBoundingClientRect().top + window.pageYOffset + yOffset;
+        window.scrollTo({ top: y, behavior: 'smooth' });
+      } else {
+        // Fallback: ir al top si no encuentra el formulario
+        window.scrollTo({ top: 0, behavior: 'smooth' });
       }
     } else {
       // Si estamos en otra página, navegar a la principal y luego scroll
@@ -46,7 +51,11 @@ export const FloatingCTA = () => {
       setTimeout(() => {
         const formulario = document.getElementById('formulario');
         if (formulario) {
-          formulario.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          const yOffset = -100;
+          const y = formulario.getBoundingClientRect().top + window.pageYOffset + yOffset;
+          window.scrollTo({ top: y, behavior: 'smooth' });
+        } else {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
         }
       }, 100);
     }
