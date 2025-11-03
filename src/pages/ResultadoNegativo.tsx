@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/Badge";
 import { Header } from "@/components/Header";
-import { LiveCounter } from "@/components/LiveCounter";
 import { AlertCircle, Shield, TrendingDown, Phone, CheckCircle } from "lucide-react";
 
 const ResultadoNegativo = () => {
@@ -14,7 +13,6 @@ const ResultadoNegativo = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-background to-secondary/20">
       <Header />
-      <LiveCounter />
       
       {/* Hero Section */}
       <section className="container mx-auto px-4 py-16 md:py-24 text-center">
